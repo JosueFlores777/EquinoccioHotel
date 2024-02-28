@@ -1,293 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Vive la experiencia de obtener lo que quieres en el momento que quieras">
-    <meta name="author" content="Usayhello">
-    <link rel="icon" href="./assets/img/icono.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./assets/img/icono.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/7d6e4a35af.js" crossorigin="anonymous"></script>
-    <title>Wappi</title>
-    <!-- manifest meta -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equinoccio Hotel</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a href="#"
+        ><img
+          src="./assets/img/Inicio/Header/logo-equinoccio-blanco.png"
+          class="logo"
+          width="140px"
+      /></a>
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="./assets/img/icono.png" sizes="180x180">
-    <link rel="icon" href="./assets/img/icono.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="./assets/img/icono.png" sizes="16x16" type="image/png">
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="./views/room.html">Habitaciones</a></li>
+          <li><a href="./views/contact.html">Gatronomia</a></li>
+          <li><a href="./views/contact.html">Contacto</a></li>
+        </ul>
+      </div>
 
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      <li class="reserve-btn">
+        <button>
+          <i class="material-symbols-outlined"> calendar_month </i> Reservar
+          Ahora
+        </button>
+      </li>
+    </header>
+    <section id="fondo">
+      <h1>Donde todo se Alinéa</h1>
+      <p>
+        Inspirados por el simolismo del equinoccio, aspiramos a ser tu regudio,
+        tu punto de partida para reconectar contigo mismo y con la naturaleza
+        que nos rodea. Descubre como cuidamos tatnto tu alma como tu cuerpo,
+        ofreciendote momentos inovidables en un ambiente sosetnible y a cogedor
+      </p>
+      <button>
+        <i class="material-symbols-outlined"> calendar_month </i> Reservar Ahora
+      </button>
+    </section>
 
-    <!-- bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <!-- nouislider CSS -->
-
-    <!-- style css for this template -->
-    <link href="./assets/css/style-blue11.css" rel="stylesheet" >
-    <link href="./assets/css/wappi3.css" rel="stylesheet" >
-</head>
-
-<body class="body-scroll" data-page="home">
-    <!-- loader section -->
-    <script src="../views/loader.js"></script>
-    <!-- loader section ends -->
-
-    <!-- Begin page -->
-    <main class="h-100 has-header has-footer">
-        <!-- Header -->
-        <header class="container-fluid header">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="logo-small">
-                      <img src="./assets/img/logo.png" loading="lazy" alt="Wappi" class="img">
-                        <!-- <h6>GO<br><small>MobileUX</small></h6> -->
-                    </div>
-                </div>
-                <!--  
-                <div class="col-auto align-self-center" style="font-family: 'PT Sans', sans-serif;">
-                    <a href="https://wappi.app/delivery/" target="_blank" style="display: block;">
-                        <i class="fa fa-bicycle" aria-hidden="true"> <small>Regístrate</small> </i>
-                    </a>
-                </div>
-                -->
-            </div>
-        </header>
-
-    <div class="section-bannerProduct" id="section-bannerProduct">
-         <!-- mostrand el banner y el logo principal -->
-    </div>
-    
-    <!-- main page content -->
-    <div class="main-container container">
-            <div class="slider-container" id="sliderContainer">
-                <h5 style="margin-bottom: 0px; margin-top: 20px;">Las mejores promociones</h5>
-                <div class="slider2" id="slider2">
-                       <!-- mostrando los banner de promociones desde js-->
-                </div>
-             </div>
-
-              <div class="container">
-                <h5 style="margin-top: -41px;  position: absolute; margin-left: -10px;">Qué deseas comprar?</h5>
-                <div class="group_busc">
-                    <svg class="icon_busc" aria-hidden="true" viewBox="0 0 24 24">
-                        <g>
-                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
-                        </g>
-                    </svg>
-                    <input type="text" class="input_busc" oninput="Busqueda()" onclick="Busqueda()" onchange="Busqueda()"  id="buscador" name="buscador" placeholder="Qué deseas comprar?" >
-                </div>
-        
-                <div class="container_categoies" id="listCatagories" style="display: none;">
-                    <div class="categorias" style="padding-top: 27px; margin: auto; margin-top: -28px;">
-                        <div class="swiper mySwiper">
-                            <h5 style="margin-left: 30px">Explora las categorias</h5>
-                            <div id="container_categorias">
-                                <!-- listandolas categorias desde js -->
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>        
-              </div>
-
-                <div class="col-auto">
-                    <h5 style="margin-top: 31px">Productos</h5>
-                     <div class="row" id="container_companys">
-                                <!-- Contenido de la sección 2 -->
-                    </div>
-                </div>
-     </div>
-        <!-- main page content ends -->
-
-    <footer>
-        <div>
-            <a href="https://wappi.app/registro" target="_blank" class="buttonfooter">Quiero vender con Wappi</a>
-            <p>Creado usando la tecnología de <a href="https://wappi.app/" target="_blank"><img src="../assets/img/logo.png" loading="lazy" width="90px" height="auto" alt="wappi"></a></p>
-        </div>
-    </footer>
-
-    </main>
-    <!-- Page ends-->
-   
- <!-- filter menu -->
- <div class="filter">
-    <div class="card shadow h-100">
-        <div class="card-header">
-            <div class="row">
-                <div class="col align-self-center">
-                    <h6 class="mb-0">Categorias</h6>
-                    <p class="text-opac" id="total_negocios" style="display: none;">2154 Productos</p>
-                    <!-- categories -->
-                </div>
-                <div class="col-auto px-0">
-                    <button class="btn text-danger filter-close" onclick="cerrarCarrito()">
-                        <i class="bi bi-x size-22"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="card-body overflow-auto">
-            <div id="carrito-container">
-                <!-- Aquí se mostrarán los productos del carrito -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- filter menu ends-->
-  <!-- modal detalle de producto -->
-  <div class="modal fade" id="addproductcart" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-sm modal-dialog-centered">
-        <div class="modal-content col-6 col-md-4 col-lg-3" id="container_detail_Product">
-         <!-- detalle de carrito desd JS -->
-        </div>
-    </div>
-</div>
-<!-- modal detalle de producto ends -->
-    <script src="./assets/js/jquery-3.3.1.min.js"></script>
-     <!-- Required jquery and libraries -->
-    <script src="./assets/vendor/bootstrap-5/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Customized jquery file  -->
-    <script src="./assets/js/main.js"></script>
-    
-    <script src="./assets/js/variable.js"></script>
-    <script src="./assets/js/wappi3.js"></script>
-    <script> 
-    document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(function () {
-            const sliderContainer = document.getElementById('sliderContainer');
-            const slider = document.getElementById('slider2');
-            const images = document.querySelectorAll('.slider2 img');
-            const totalImages = images.length;
-            const imageWidth = images[0].clientWidth;
-            slider.innerHTML += slider.innerHTML;
-            let currentIndex = 0;
-            let isTransitioning = false;
-            let interval;
-            let touchStartX = 0;
-            let touchEndX = 0;
-            let touchMoveX = 0;
-
-            function showNextImage() {
-                if (!isTransitioning) {
-                    currentIndex = (currentIndex + 1) % (totalImages * 2);
-                    updateSliderPosition();
-                }
-            }
-
-            function showPreviousImage() {
-                if (!isTransitioning) {
-                    currentIndex = (currentIndex - 1 + totalImages * 2) % (totalImages * 2);
-                    updateSliderPosition();
-                }
-            }
-
-            function updateSliderPosition() {
-                const translateValue = `-${currentIndex * imageWidth}px`;
-                slider.style.transition = 'transform 1s ease-in-out';
-                slider.style.transform = `translateX(${translateValue})`;
-
-                // Eliminar el listener antes de agregarlo nuevamente
-                slider.removeEventListener('transitionend', handleTransitionEnd);
-                // Agregar el listener después de un breve tiempo para evitar acumulación
-                setTimeout(() => {
-                    slider.addEventListener('transitionend', handleTransitionEnd);
-                }, 100);
-            }
-
-            function handleTransitionEnd() {
-                if (currentIndex >= totalImages) {
-                    isTransitioning = true;
-                    currentIndex = 0;
-                    const resetValue = `-${currentIndex * imageWidth}px`;
-                    slider.style.transition = 'none';
-                    slider.style.transform = `translateX(${resetValue})`;
-
-                    setTimeout(() => {
-                        slider.style.transition = 'transform 0s';
-                        isTransitioning = false;
-                    }, 0);
-                }
-            }
-
-            function startAutoScroll() {
-                interval = setInterval(showNextImage, 5000);
-            }
-
-            function stopAutoScroll() {
-                clearInterval(interval);
-            }
-
-            function handleTouchStart(event) {
-                touchStartX = event.touches[0].clientX;
-            }
-
-            function handleTouchMove(event) {
-                touchMoveX = event.touches[0].clientX;
-            }
-
-            function handleTouchEnd(event) {
-                touchEndX = event.changedTouches[0].clientX;
-                handleSwipe();
-            }
-
-            function handleSwipe() {
-                const swipeThreshold = 50;
-                const swipeDistance = touchEndX - touchStartX;
-
-                if (swipeDistance > swipeThreshold) {
-                    showPreviousImage();
-                } else if (swipeDistance < -swipeThreshold) {
-                    showNextImage();
-                }
-            }
-
-            function handleMouseDragStart(event) {
-                event.preventDefault();
-                touchStartX = event.clientX;
-                sliderContainer.addEventListener('mousemove', handleMouseDragMove);
-                sliderContainer.addEventListener('mouseup', handleMouseDragEnd);
-            }
-
-            function handleMouseDragMove(event) {
-                touchMoveX = event.clientX;
-                const dragDistance = touchMoveX - touchStartX;
-                slider.style.transform = `translateX(${dragDistance}px)`;
-            }
-
-            function handleMouseDragEnd(event) {
-                touchEndX = event.clientX;
-                handleSwipe();
-                sliderContainer.removeEventListener('mousemove', handleMouseDragMove);
-                sliderContainer.removeEventListener('mouseup', handleMouseDragEnd);
-            }
-
-            sliderContainer.addEventListener('mouseenter', stopAutoScroll);
-            sliderContainer.addEventListener('mouseleave', startAutoScroll);
-            sliderContainer.addEventListener('touchstart', handleTouchStart);
-            sliderContainer.addEventListener('touchmove', handleTouchMove);
-            sliderContainer.addEventListener('touchend', handleTouchEnd);
-            sliderContainer.addEventListener('mousedown', handleMouseDragStart);
-
-            startAutoScroll();
-        }, 1000);
-    });
-      
-      </script>
-    
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEQHVLHNRR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QEQHVLHNRR');
-</script>
-</body>
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="./img/features/f1.png" />
+        <h6>Envíos Gratis</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./img/features/f2.png  " />
+        <h6>Pedidos en línea</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./img/features/f3.png  " />
+        <h6>Ahorros</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./img/features/f4.png  " />
+        <h6>Pomociones</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./img/features/f5.png  " />
+        <h6>Ventas Feliz</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./img/features/f6.png  " />
+        <h6>Soporte F24/7</h6>
+      </div>
+    </section>
+  </body>
 </html>
