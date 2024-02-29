@@ -18,17 +18,21 @@ body {
     justify-content: space-between;
     padding: 15px 80px;
     width: 100%;
-    background: transparent;
+    background: hsla(0, 0%, 0%, 0.452);
     z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
 }
 
+ul {
+    margin-left: auto;
+}
+
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 #navbar li {
@@ -125,39 +129,121 @@ button:hover,
     margin: 0 auto;
 }
 
-/*Galeria*/
-
-
-/*Room*/
-
+/* Room */
 #Room {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px; 
+    margin-top: 50px;
+    text-align: center;
+    background-color: #F2FBFA;
 }
 
-#Room .fe-box {
-    width: 180px;
+.fe-box {
+    width: 370px;
     text-align: center;
     padding: 25px 15px;
+    background: #ffffff;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
-    border: 1px solid #088178;
+    border: 1px solid #F2FBFA;
     border-radius: 4px;
-    margin: 16px; 
+    margin: 16px;
 }
 
-#Room .fe-box img {
+.fe-box img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-#Room .fe-box h6 {
-    display: inline-block;
-    padding: 9px 8px 6px 8px;
-    line-height: 1;
-    border-radius: 4px;
-    border: 1px solid #088178;
-    color: #000000;
+.row {
+    padding: 10px;
+}
+
+.textRoom {
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#Room h1{
+    color: #246161;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+#Room h6{
+    color: #18181B;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: "Playfair Display", serif;
+}
+
+#Room button {
+    width: 90%;
+    height: 40px;
+    border: none;
+    background: #C9FFFD;
+    color: #003E52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+button span {
+    font-weight: 300;
+}
+
+#Room button:hover {
+    width: 90%;
+    height: 40px;
+    border: none;
+    color: #C9FFFD;
+    background: #003E52;
+}
+
+
+/*Gatronomia*/
+
+#Gastronomia {
+  
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#Gastronomia h5{
+    color: #246161;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.grid-item {
+    width: 230px;
+    margin-bottom: 40px;
+}
+
+
+.vertical-container {
+    display: flexbox;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
 }
