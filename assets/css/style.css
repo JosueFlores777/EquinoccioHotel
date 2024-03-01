@@ -189,6 +189,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     gap: 3px;
 }
 
@@ -225,25 +226,75 @@ button span {
 }
 
 
-.grid-container {
+.contenedor {
+	width: 100%;
+    align-items: center;
+    justify-content: center;
+	padding: 40px 0;
+    display: flex; 
+        align-items: center;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+
+.contenedor-conciertos {
+    width: 70%;
+    max-width: 1200px;
+    padding: 40px 0;
+    display: flex;
+    
+}
+
+.contenedor-conciertos2 {
+    width: 30%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.contenedor-conciertos3 {
+    width: 30%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.contenedor-conciertos .card2,.contenedor-conciertos .card3{
+    width: 90rem; 
+    height: 400px;
+    margin: 5px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+.card {
+    border-radius: 10px;
+    width: 200px; 
+    height: 200px; 
+    font-weight: bold;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 230px);
-    gap: 20px;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 10px;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center; 
 }
 
 
-.grid-item {
-    width: 230px;
-    margin-bottom: 40px;
-}
-
-
-.vertical-container {
-    display: flexbox;
-    grid-template-columns: repeat(2, 200px);
-    gap: 20px;
-    justify-content: center;
-    margin: 0 auto;
+@media (max-width: 768px) {
+    .contenedor-conciertos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-conciertos2,
+    .contenedor-conciertos3 {
+        width: 100%;
+    }
 }
