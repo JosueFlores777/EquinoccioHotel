@@ -63,7 +63,8 @@ ul {
 }
 
 #fondo button,
-.reserve-btn button {
+.reserve-btn button,
+#fondoFinal  button {
     font-size: 15px;
     border: none;
     border-radius: 5px;
@@ -77,7 +78,8 @@ ul {
 
 button:hover,
 .reserve-btn button:hover,
-#fondo .textFondo button:hover {
+#fondo .textFondo button:hover,
+#fondoFinal button:hover {
     background-color: #003E52;
     color: rgba(201, 255, 253, 1);
     cursor: pointer;
@@ -292,7 +294,7 @@ button span {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Asegura que cualquier contenido que sobresalga del contenedor se oculte */
+    overflow: hidden; 
   }
 
   #carouselExampleControls {
@@ -503,4 +505,123 @@ button span {
     font-size: 19px;
     font-size: 600;
     color: #000;
+}
+
+/**/
+#fondoFinal {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-hacia-el-muelle-y-lago.webp); 
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 0;
+    z-index: 1;
+}
+
+#fondoFinal h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    width: 700;
+    margin-bottom: 25px;
+}
+
+#fondoFinal p {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    width: 400;
+    margin-bottom: 25px;
+}
+
+#fondoFinal .textFondo {
+    text-align: center;
+}
+
+#fondoFinal button {
+    margin: 0 auto;
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #003E52;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+
+footer .follow i:hover,
+footer a:hover¨ {
+    color: #060663;
+}
+
+footer .copyrigh {
+    width: 100%;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav-list, .icons-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item, .material-symbols-outlined {
+    margin-right: 20px; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white; /* Ajusta el color del texto según tus preferencias */
+  }
+  
+  .logo-container {
+    flex-grow: 1;
+    text-align: center;
+  }
+.section-p1 {
+    padding: 40px 80px;
 }
