@@ -177,7 +177,7 @@ button:hover,
 }
 
 .fe-box {
-    width: 370px;
+    width: 380px;
     text-align: center;
     padding: 25px 15px;
     background: #ffffff;
@@ -202,6 +202,7 @@ button:hover,
 
 p {
     font-size: 12px;
+    padding: 3px;
 }
 
 #Room h1{
