@@ -80,6 +80,7 @@ ul {
 
 #fondo button,
 .reserve-btn button,
+.reserve-btn2 button,
 #fondoFinal  button {
     font-size: 15px;
     border: none;
@@ -95,6 +96,7 @@ ul {
 button:hover,
 .reserve-btn button:hover,
 #fondo .textFondo button:hover,
+.reserve-btn2 button,
 #fondoFinal button:hover {
     background-color: #003E52;
     color: rgba(201, 255, 253, 1);
@@ -275,28 +277,28 @@ button span {
 }
 
 
-.contenedor-conciertos {
+.contenedor-gatronomia {
     width: 70%;
     max-width: 1200px;
     padding: 40px 0;
     display: flex;
-    
+    transition: 3 all ;
 }
 
-.contenedor-conciertos2 {
+.contenedor-gatronomia2 {
     width: 30%;
     max-width: 1200px;
     flex-wrap: wrap;
 }
-.contenedor-conciertos3 {
-    width: 30%;
+.contenedor-gatronomia3 {
+    width: 20%;
     max-width: 1200px;
     flex-wrap: wrap;
 }
 
-.contenedor-conciertos .card2,.contenedor-conciertos .card3{
-    width: 90rem; 
-    height: 400px;
+.contenedor-gatronomia .card2,.contenedor-gatronomia .card3{
+    width: 100rem; 
+    height: 420px;
     margin: 5px;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -384,18 +386,76 @@ button span {
     object-fit: cover;
   }
 
-@media (max-width: 768px) {
-    .contenedor-conciertos {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .contenedor-conciertos2,
-    .contenedor-conciertos3 {
-        width: 100%;
-    }
+  .card {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+
+
+.carousel-caption{
+   
+    background: rgba(0, 0, 0, 0.455);
 }
 
+.carousel-item img {
+    position: relative;
+    z-index: 0; /* Coloca la imagen detrás del texto */
+  }
+
+  .reserve-btn2 {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .contenedor-gatronomia {
+      display: none; 
+     
+    }
+    .reserve-btn {
+        display: none;
+      }
+
+    .reserve-btn2 {
+        margin-top: 45px;
+        display: block; 
+    }
+
+    #Gastronomia h5{
+
+         text-align: center;
+      }
+
+    #Gastronomia {
+     
+        text-align: start;
+       
+    }
+    #carouselExampleIndicators {
+      display: block; 
+      width: 345px;
+    }
+
+    .carousel-item img {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+  
+  }
+  
+  /* Media query para pantallas mayores o iguales a 1000px */
+  @media only screen and (min-width: 1000px) {
+    .contenedor-gatronomia {
+      
+      display: flex;
+    }
+    #carouselExampleIndicators {
+      display: none; 
+    }
+  }
+  
 /**/
 
 
@@ -529,7 +589,7 @@ footer .copyrigh {
 }
 
 
-/*Contacto comentarios*/
+/*Contacto*/
 
 #form-details form {
     width: 65%;
@@ -649,13 +709,13 @@ footer .copyrigh {
 
 
   @media (max-width: 768px) {
-    .contenedor-conciertos {
+    .contenedor-gatronomia {
         flex-direction: column;
         align-items: center;
     }
     
-    .contenedor-conciertos2,
-    .contenedor-conciertos3 {
+    .contenedor-gatronomia2,
+    .contenedor-gatronomia3 {
         width: 100%;
     }
 
