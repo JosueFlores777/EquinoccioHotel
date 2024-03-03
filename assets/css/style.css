@@ -447,16 +447,15 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     background: #003E52;
-    height:200px;
+    height:auto;
 }
 
 footer .copyrigh {
     width: 100%;
     text-align: center;
+    background: #003E52;
 }
-.icon-white {
-    color: white;
-  }
+
 
 
 /*Cotactos*/
@@ -471,7 +470,6 @@ footer .copyrigh {
 
 #contact-details {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 100px 45px;
     margin-left: 45px;
@@ -488,10 +486,17 @@ footer .copyrigh {
 
 }
 
+#contact-details .details h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #18181B;
+    font-family: "Playfair Display", serif;
+}
 
-
-#contact-details .details h3 {
-    font-size: 16px;
+#contact-details .details h4 {
+    font-size: 23px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
     padding-bottom: 15px;
 }
 
@@ -507,8 +512,9 @@ footer .copyrigh {
 }
 
 #contact-details .map {
+    margin-left: 35px;
     width: 55%;
-    height: 400px;
+    height: 500px;
     margin-bottom: 45px;
 }
 
@@ -517,7 +523,10 @@ footer .copyrigh {
     height: 100%;
 }
 
-
+.fomrulario{
+    background: #C9FFFD;
+    color: #003E52;
+}
 
 
 /*Contacto comentarios*/
@@ -604,3 +613,86 @@ footer .copyrigh {
         width: 100%;
     }
   }
+
+
+  @media (max-width: 768px) {
+    .contenedor-conciertos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-conciertos2,
+    .contenedor-conciertos3 {
+        width: 100%;
+    }
+
+  
+    
+#contact-details .map {
+    margin-left: 35px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 45px;
+}
+
+#contact-details .map iframe {
+    width: 78%;
+    height: 100%;
+}
+#contact-details .map {
+    margin-left: 6px;
+    margin-bottom: -35px;
+}
+
+#contact-details .map iframe {
+  width: 408px;
+  height: 350px;
+}
+
+
+}
+
+@media (max-width: 478px) {
+    #fondo-cotacto {
+        height: 70vh; 
+        
+    }
+    
+
+#contact-details {
+    margin-top: -25px;
+   margin-left: -25px;
+}
+
+
+#contact-details .details h1{
+    font-size: 28px;
+    font-weight: 400;
+    color: #18181B;
+    font-family: "Playfair Display", serif;
+}
+
+#contact-details .details h4 {
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li i {
+    color: #088178;
+    padding: 10px;
+}
+
+#contact-details .map {
+    margin-left: 6px;
+    margin-bottom: -35px;
+}
+
+#contact-details .map iframe {
+  width: 308px;
+  height: 350px;
+}
+
+
+}
