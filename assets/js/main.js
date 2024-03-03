@@ -81,3 +81,20 @@ sr7.reveal('.titlemain', {
     origin: 'bottom', 
     interval: 200,
 });
+
+
+/* Vista de cuartos*/
+
+function mostrarHabitacion(tipo) {
+  
+    var habitaciones = document.querySelectorAll('.card-Habitacion');
+    habitaciones.forEach(function(habitacion) {
+      habitacion.style.display = 'none';
+    });
+
+    
+    var carta = document.getElementById(tipo.toLowerCase());
+    if (carta) {
+      carta.style.display = 'block';
+    }
+  }

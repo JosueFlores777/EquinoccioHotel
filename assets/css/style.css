@@ -649,6 +649,91 @@ footer .copyrigh {
 
 
 
+#room-details .details {
+    width: 40%;
+}
+
+
+
+#room-details .details h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #18181B;
+    font-family: "Playfair Display", serif;
+}
+
+#room-details .details h4 {
+    font-size: 23px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#room-details.details li {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+#room-details .details li i {
+    color: #088178;
+    padding: 10px;
+}
+
+#room-details .map {
+    margin-left: 35px;
+    width: 55%;
+    height: 500px;
+    margin-bottom: 45px;
+}
+
+/**/
+#room-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 45px;
+    margin-left: 45px;
+    margin-bottom: 55px;
+}
+
+#room-details .details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#room-details .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+#room-details .buttons button {
+    margin-top: 40px; 
+    width: 480px;
+    text-align: left;
+    background: #fff;
+    color: #91939F;
+    font-size: 21px;
+    font-weight: 400;
+   font-family: "Manrope", sans-serif;
+}
+
+
+#room-details .buttons button:hover {
+    width: 480px;
+    text-align: left; 
+    color: #003E52;
+    border: #003E52;
+}
+
+#room-details .buttons button:focus {
+    color:#246161;
+}
+
+
 #fondo-room {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../img/Habitaciones/portada-hotel-equinoccio-vista-habitacion-deluxe.webp); 
     height: 100vh;
@@ -703,6 +788,19 @@ footer .copyrigh {
     }
     
     #contact-details .map {
+        width: 100%;
+    }
+    /**/
+    #room-details {
+        flex-direction: column;
+    }
+    
+    #room-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #room-details .card-room {
         width: 100%;
     }
   }
