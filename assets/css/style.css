@@ -757,6 +757,10 @@
         margin: 10px;
         margin-left: 60px;
     }
+
+    .categories .container-fluid{
+        width: 110%;
+    }
     .return-room,.title-room {
         margin-left: 70px;
     }
@@ -775,7 +779,7 @@
     .categories .return-room a{   
         font-weight: 400;
         color: #18181B;
-        font-family: "Protest Strike", sans-serif;
+        font-family: "Protest Display", sans-serif;
         text-decoration: none;
     }
 
@@ -808,8 +812,18 @@
         margin-left: 55px;
     
     }
-    .return-room-foote2 {
-        margin-right: 55px;
+    .menufooter .return-room-footer2 a {
+        margin-right: 50px;
+    }
+
+    .menufooter .return-room-footer2 a,
+    .menufooter .return-room-footer a
+     {
+        color: #737584;
+        text-decoration: none;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
     }
     
     @media only screen and (max-width: 1000px) {
