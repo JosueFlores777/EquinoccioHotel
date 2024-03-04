@@ -217,7 +217,7 @@
         font-family: "Playfair Display", serif;
     }
 
-    #Room button {
+    #Room a {
         width: 90%;
         height: 40px;
         border: none;
@@ -234,7 +234,7 @@
         font-weight: 300;
     }
 
-    #Room button:hover {
+    #Room a:hover {
         width: 90%;
         height: 40px;
         border: none;
