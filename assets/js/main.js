@@ -8,7 +8,7 @@ const sr = new ScrollReveal({
 });
 const sr2 = new ScrollReveal({
     origin: 'bottom', 
-    distance: '160px',
+    distance: '10px',
     duration: 3000,
     delay: 100,
     scale: 0.5,

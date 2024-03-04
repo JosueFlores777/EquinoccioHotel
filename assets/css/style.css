@@ -71,6 +71,8 @@
         border-radius: 5px;
     }
 
+    
+
     .section-p1{
         padding: 80px 85px;
     }
@@ -83,6 +85,7 @@
     .reserve-btn2 button,
     #fondoFinal  button {
         font-size: 15px;
+        font-weight: 200;
         border: none;
         border-radius: 5px;
         outline: none;
@@ -409,54 +412,6 @@
         display: none;
     }
 
-    @media only screen and (max-width: 1000px) {
-        .contenedor-gatronomia {
-        display: none; 
-        
-        }
-        .reserve-btn {
-            display: none;
-        }
-
-        .reserve-btn2 {
-            margin-top: 45px;
-            display: block; 
-        }
-
-        #Gastronomia h5{
-
-            text-align: center;
-        }
-
-        #Gastronomia {
-        
-            text-align: start;
-        
-        }
-        #carouselExampleIndicators {
-        display: block; 
-        width: 345px;
-        }
-
-        .carousel-item img {
-            width: auto;
-            height: auto;
-            object-fit: cover;
-        }
-    
-    }
-    
-    /* Media query para pantallas mayores o iguales a 1000px */
-    @media only screen and (min-width: 1000px) {
-        .contenedor-gatronomia {
-        
-        display: flex;
-        }
-        #carouselExampleIndicators {
-        display: none; 
-        }
-    }
-    
     /**/
 
 
@@ -654,6 +609,10 @@
         width: 40%;
     }
 
+    .card-Habitacion {
+        width: 55%;
+      }
+
 
 
     #room-details .details h1{
@@ -728,6 +687,7 @@
     }
 
 
+
     #room-details .buttons button:hover {
         width: 480px;
         text-align: left; 
@@ -791,6 +751,115 @@
     }
     /**/
 
+    /*Habitacion Indivual Detalles*/
+
+    .categories .container-fluid{
+        margin: 10px;
+        margin-left: 60px;
+    }
+    .return-room,.title-room {
+        margin-left: 70px;
+    }
+
+    .categories .return-room{
+        margin-top: 130px;
+    }
+
+    .categories .title-room{
+        font-size: 48px;
+        font-weight: 400;
+        color: #18181B;
+        font-family: "Playfair Display", serif;
+    }
+
+    .categories .return-room a{   
+        font-weight: 400;
+        color: #18181B;
+        font-family: "Protest Strike", sans-serif;
+        text-decoration: none;
+    }
+
+    .contact-details .card-title-habitacion h5 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+ 
+    .map .row-row {
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -12px;
+    }
+
+    .menufooter{
+        margin-top: -250px;
+        margin-bottom: 25px;
+    }
+    .menufooter hr{
+        color: #B8B9C1;
+    }
+
+    .return-room-footer {
+        margin-left: 55px;
+    
+    }
+    .return-room-foote2 {
+        margin-right: 55px;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .contenedor-gatronomia {
+        display: none; 
+        
+        }
+        .reserve-btn {
+            display: none;
+        }
+
+        .reserve-btn2 {
+            margin-top: 45px;
+            display: block; 
+        }
+
+        #Gastronomia h5{
+
+            text-align: center;
+        }
+
+        #Gastronomia {
+        
+            text-align: start;
+        
+        }
+        #carouselExampleIndicators {
+        display: block; 
+        width: 345px;
+        }
+
+        .carousel-item img {
+            width: auto;
+            height: auto;
+            object-fit: cover;
+        }
+    
+    }
+    
+   
+    @media only screen and (min-width: 1000px) {
+        .contenedor-gatronomia {
+        
+        display: flex;
+        }
+        #carouselExampleIndicators {
+        display: none; 
+        }
+    }
+    
 
     @media (max-width: 1000px) {
         footer {
@@ -832,6 +901,13 @@
             width: 100%;
         }
     }
+
+    @media (max-width: 1200px) {
+        .card-Habitacion {
+            width: 75%;
+          }
+    }
+
 
 
     @media (max-width: 768px) {
@@ -915,3 +991,4 @@
 
 
     }
+
