@@ -807,6 +807,9 @@
         z-index: 1;
     }
 
+   
+
+
 
 
     #fondo-room h1 {
@@ -933,7 +936,7 @@
     
     #fondo-gastranomia .fondo-title-gastranomia {
         font-family: "Playfair Display", serif;
-        color: #fff;
+        color: #fff7f7;
         font-weight: 400;
         font-size: 48px;
         line-height: 58px;
@@ -976,8 +979,58 @@
         font-weight: 400;
         font-size: 40px;
         line-height: 48px;
+        margin-bottom: 35px;
     }
 
+    .textGatronomia{
+        margin-top: 28px;
+        color: #18181B;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: 39px;
+        font-family: "Manrope", sans-serif;
+    }
+
+    .container-galeria{
+        margin-right: 40px
+    }
+
+
+    #fondo-gastranomia1 {
+        background-image:    url(../img/Gastronomia/banner-gastronomia-equinoccio-cafe-postres-_1_.webp);
+        height: 100vh;
+        width: 90%;
+        margin: 60px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: 0;
+        z-index: 1;
+        padding: 25px;
+    }
+
+    .contendor-gastronomia{
+        padding: 25px;
+        width: 40%;
+        color: #070707;
+        background: #ffffff;
+   
+    }
+    .texto-gastronomia{
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .fondo-title-gastranomia2{
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Playfair Display", serif;
+    }
     /**/
     .menufooter {
         margin-top: -50px;
