@@ -80,7 +80,10 @@
     .reserve-btn li {
         list-style: none;
     }
-
+    #fondo-gastranomia2 button {
+        margin: 0 auto;
+    }
+    #fondo-gastranomia2 button,
     #fondo button,
     .reserve-btn button,
     .reserve-btn2 button,
@@ -97,6 +100,7 @@
         gap: 3px;
     }
 
+    #fondo-gastranomia2 button:hover,
     button:hover,
     .reserve-btn button:hover,
     #fondo .textFondo button:hover,
@@ -913,6 +917,14 @@
       
     }
 
+    .titlemain2 {
+        color: #fff; 
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom:25px ;
+    }
+
     
     .fe-box-gastronomia p span{
         color: #165954;
@@ -1011,6 +1023,21 @@
         left: 0;
         z-index: 1;
         padding: 25px;
+    }
+
+    #fondo-gastranomia2 {
+        background-image:url(../img/Gastronomia/banner-piscina-hotel-equinoccio.webp);
+        height: 80vh;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: 0;
+        z-index: 1;
     }
 
     .contendor-gastronomia{
