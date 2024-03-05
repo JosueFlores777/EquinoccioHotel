@@ -248,7 +248,7 @@
 
 .grid-card-container {
     width: 89%;
-    height: 80vh;
+    height: 50vh;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Cambiado el ancho a 1fr */
@@ -273,7 +273,7 @@
 .grid-card:nth-child(3) {
     grid-row: 1/3;
  
-    background-image: url('../img/Inicio/Galeria/atardecer-hotel-equinoccio.webp');
+    background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-atardecer-muelle.webp');
 }
 
 .grid-card:nth-child(4) {

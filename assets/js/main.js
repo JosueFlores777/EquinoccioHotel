@@ -28,6 +28,9 @@ sr2.reveal('#Gastronomia .contenedor-gatronomia .card', {
   
 });
 
+sr2.reveal('.grid-card', {
+    interval: 300
+});
 
 
 const sr4 = new ScrollReveal({
