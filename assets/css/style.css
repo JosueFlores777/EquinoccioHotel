@@ -300,7 +300,6 @@
 
         align-items: center;
         justify-content: center;
-
         margin-top: 50px;
         text-align: center;
 
@@ -663,9 +662,16 @@
     }
 
     .card-Habitacion {
-        width: 55%;
+        max-width: 70%; 
+        width: 100%;
+        margin: 0 auto; 
     }
 
+    .card-habitacionesButon{
+        display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
 
 
     #room-details .details h1 {
@@ -700,6 +706,21 @@
         margin-bottom: 45px;
     }
 
+    .text-detallesIndividual{
+        color: #4C4D58;
+        font-family: "Manrope", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .text-TituledetallesIndividual{
+        color: #18181B;
+        font-family: "Manrope", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 28px;
+        line-height: 40px;
+    }
     /**/
     #room-details {
         display: flex;
@@ -769,6 +790,23 @@
         left: 0;
         z-index: 1;
     }
+
+    #fondo-gastranomia {
+        background-image:    url(../img/Gastronomia/coctel-servido-a-la-orilla-de-la-piscina-hotel-equinoccio.webp);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: 0;
+        z-index: 1;
+    }
+
 
 
     #fondo-room h1 {
@@ -859,8 +897,90 @@
         margin-left: -12px;
     }
 
+
+    /*gastranomia sec*/
+
+    #gastramonia-comida {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+      
+    }
+
+    
+    .fe-box-gastronomia p span{
+        color: #165954;
+        width: 18px;
+    }
+
+    .fe-box-gastronomia h6{
+        color: #0D2426;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .fe-box-gastronomia .textgastronomia {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    #fondo-gastranomia .fondo-title-gastranomia {
+        font-family: "Playfair Display", serif;
+        color: #fff;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    #fondo-gastranomia .text-container {
+        margin-left: 495px;
+        
+    }
+
+    .details .gastronomia-title{font-size: 35px;
+        font-family: "Playfair Display", serif;
+        color: #18181B;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    
+    .fe-box-gastronomia {
+     
+        width: 320px;
+        height: 160px;
+        text-align: center;
+        padding: 25px 15px;
+        background: #F2FBFA;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
+        border: 1px solid #F2FBFA;
+        border-radius: 4px;
+        margin: 56px;
+    }
+
+    #gastramonia-Equina{
+        margin-top: -125px;
+        margin-left: 85px;
+        margin-bottom: 135px;
+    }
+
+    #gastramonia-Equina .title-gastronomia-qeuin{
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    /**/
     .menufooter {
-        margin-top: -250px;
+        margin-top: -50px;
         margin-bottom: 25px;
     }
 
