@@ -28,30 +28,43 @@ sr2.reveal('#Gastronomia .contenedor-gatronomia .card', {
   
 });
 
-sr2.reveal('.grid-card', {
-    interval: 300
-});
+
 
 
 const sr4 = new ScrollReveal({
     origin: 'top',
     distance: '160px',
     duration: 3000,
-    delay: 400,
-    scale: 0.5 
+    delay: 0,
+    scale: 1-1 
 });
 
 sr4.reveal('.card2', {
     origin: 'bottom-left', 
     interval: 200, 
+});
 
+sr4.reveal('.grid-card-animation', {
+    origin: 'left', 
+});
+
+sr4.reveal('.grid-card-animation2', {
+    origin: 'left', 
+});
+
+sr4.reveal('.grid-card-animation3', {
+    origin: 'top', 
+});
+sr4.reveal('.grid-card-animation4', {
+    origin: 'bottom', 
 });
 
 sr4.reveal('.card3', {
     origin: 'bottom', 
     interval: 200, 
-  
 });
+
+
 
 const sr5 = new ScrollReveal({
     origin: 'bottom',

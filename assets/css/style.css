@@ -45,7 +45,7 @@
     #navbar {
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
 
     #navbar li {
@@ -71,11 +71,12 @@
         border-radius: 5px;
     }
 
-    
 
-    .section-p1{
+
+    .section-p1 {
         padding: 80px 85px;
     }
+
     .reserve-btn li {
         list-style: none;
     }
@@ -83,7 +84,7 @@
     #fondo button,
     .reserve-btn button,
     .reserve-btn2 button,
-    #fondoFinal  button {
+    #fondoFinal button {
         font-size: 15px;
         font-weight: 200;
         border: none;
@@ -109,7 +110,7 @@
     }
 
     #fondo {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-aerea.webp); 
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-aerea.webp);
         height: 100vh;
         width: 100%;
         background-size: cover;
@@ -125,7 +126,7 @@
     }
 
     #fondo-cotacto {
-        background-image: url(../img/Contacto/Equinoccio\ Noviembre-494.webp); 
+        background-image: url(../img/Contacto/Equinoccio\ Noviembre-494.webp);
         height: 80vh;
         width: 100%;
         background-size: cover;
@@ -208,12 +209,13 @@
         padding: 3px;
     }
 
-    #Room h1{
+    #Room h1 {
         color: #246161;
         font-weight: 400;
         font-family: "Playfair Display", serif;
     }
-    #Room h6{
+
+    #Room h6 {
         color: #18181B;
         font-weight: 400;
         font-size: 23px;
@@ -244,51 +246,58 @@
         color: #C9FFFD;
         background: #003E52;
     }
-/**/
 
-.grid-card-container {
-    width: 89%;
-    height: 50vh;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Cambiado el ancho a 1fr */
-    grid-template-rows: repeat(2, 1fr); /* Cambiado a 2 filas */
-    gap: 1.2rem;
-    grid-auto-rows: 10rem; /* Reducido el tamaño de las filas */
-}
-.grid-card{
-   position: relative;
-   background: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
+    /**/
 
-.grid-card:nth-child(1){
-    grid-row: 1/1;
-    background-image: url('../img/Inicio/Galeria/hombre-montado-en-kayak.webp');
-}
-.grid-card:nth-child(2){
-    background-image: url('../img/Inicio/Galeria/hombre-montado-en-jetski.webp');
-}
-.grid-card:nth-child(3) {
-    grid-row: 1/3;
- 
-    background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-atardecer-muelle.webp');
-}
+    .grid-card-container {
+        margin-top: -150px;
+        width: 89%;
+        height: 50vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1.2rem;
+        grid-auto-rows: 10rem;
+    }
 
-.grid-card:nth-child(4) {
-    grid-row: 1/3;
-    
-    background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-interna.webp');
-}
+    .grid-card {
+        position: relative;
+        background: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .grid-card:nth-child(1) {
+        grid-row: 1/1;
+   
+        background-image: url('../img/Inicio/Galeria/hombre-montado-en-kayak.webp');
+    }
+
+    .grid-card:nth-child(2) {
+     
+        background-image: url('../img/Inicio/Galeria/hombre-montado-en-jetski.webp');
+    }
+
+    .grid-card:nth-child(3) {
+        grid-row: 1/3;
+      
+        background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-atardecer-muelle.webp');
+    }
+
+    .grid-card:nth-child(4) {
+        grid-row: 1/3;
+      
+        background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-interna.webp');
+    }
 
 
 
-/**/
+    /**/
     /*Gatronomia*/
 
     #Gastronomia {
-    
+
         align-items: center;
         justify-content: center;
 
@@ -297,7 +306,7 @@
 
     }
 
-    #Gastronomia h5{
+    #Gastronomia h5 {
         color: #246161;
         font-size: 19px;
         font-weight: 400;
@@ -310,8 +319,8 @@
         align-items: center;
         justify-content: center;
         padding: 40px 0;
-        display: flex; 
-            align-items: center;
+        display: flex;
+        align-items: center;
     }
 
     .titulo {
@@ -325,7 +334,7 @@
         max-width: 1200px;
         padding: 40px 0;
         display: flex;
-        transition: 3 all ;
+        transition: 3 all;
     }
 
     .contenedor-gatronomia2 {
@@ -333,26 +342,28 @@
         max-width: 1200px;
         flex-wrap: wrap;
     }
+
     .contenedor-gatronomia3 {
         width: 20%;
         max-width: 1200px;
         flex-wrap: wrap;
     }
 
-    .contenedor-gatronomia .card2,.contenedor-gatronomia .card3{
-        width: 100rem; 
+    .contenedor-gatronomia .card2,
+    .contenedor-gatronomia .card3 {
+        width: 100rem;
         height: 420px;
         margin: 5px;
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 
     .card {
         border-radius: 10px;
-        width: 200px; 
-        height: 200px; 
+        width: 200px;
+        height: 200px;
         font-weight: bold;
         overflow: hidden;
         background-size: cover;
@@ -362,8 +373,9 @@
         grid-template-columns: repeat(2, 100px);
         grid-gap: 10px;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
     }
+
     #experiencia {
         background-color: #F2FBFA;
         width: 100%;
@@ -371,14 +383,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden; 
+        overflow: hidden;
     }
 
     #carouselExampleControls {
         width: 100%;
-        max-width: 846px; 
+        max-width: 846px;
         height: 100%;
-        margin: 0 5px; 
+        margin: 0 5px;
     }
 
     .carousel-inner {
@@ -387,8 +399,8 @@
     }
 
     .carousel-item {
-        width: 100%; 
-        max-width: 846px; 
+        width: 100%;
+        max-width: 846px;
         margin-right: 5px;
     }
 
@@ -401,6 +413,7 @@
         height: 100%;
         object-fit: cover;
     }
+
     #experiencia {
         display: flex;
         justify-content: center;
@@ -408,9 +421,9 @@
     }
 
     #carouselExampleControls {
-        width: 846px; 
-        height: 500px; 
-        overflow: hidden; 
+        width: 846px;
+        height: 500px;
+        overflow: hidden;
     }
 
     .carousel-inner {
@@ -419,8 +432,8 @@
     }
 
     .carousel-item {
-        min-width: 846px; 
-        flex: 0 0 auto; 
+        min-width: 846px;
+        flex: 0 0 auto;
     }
 
     .carousel-item img {
@@ -437,14 +450,15 @@
     }
 
 
-    .carousel-caption{
-    
+    .carousel-caption {
+
         background: rgba(0, 0, 0, 0.455);
     }
 
     .carousel-item img {
         position: relative;
-        z-index: 0; /* Coloca la imagen detrás del texto */
+        z-index: 0;
+        /* Coloca la imagen detrás del texto */
     }
 
     .reserve-btn2 {
@@ -456,7 +470,7 @@
 
     /**/
     #fondoFinal {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-hacia-el-muelle-y-lago.webp); 
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-hacia-el-muelle-y-lago.webp);
         height: 90vh;
         width: 100%;
         background-size: cover;
@@ -502,7 +516,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         background: #003E52;
-        height:auto;
+        height: auto;
     }
 
     footer .copyrigh {
@@ -541,7 +555,7 @@
 
     }
 
-    #contact-details .details h1{
+    #contact-details .details h1 {
         font-size: 40px;
         font-weight: 700;
         color: #18181B;
@@ -578,7 +592,7 @@
         height: 100%;
     }
 
-    .fomrulario{
+    .fomrulario {
         background: #C9FFFD;
         color: #003E52;
     }
@@ -650,11 +664,11 @@
 
     .card-Habitacion {
         width: 55%;
-      }
+    }
 
 
 
-    #room-details .details h1{
+    #room-details .details h1 {
         font-size: 40px;
         font-weight: 400;
         color: #18181B;
@@ -709,38 +723,39 @@
         margin-top: 55px;
     }
 
-    .buttons hr{
+    .buttons hr {
         color: #D5F2EE;
         margin-bottom: 15px;
         width: 95%;
     }
+
     #room-details .buttons button {
-        margin-top: 40px; 
+        margin-top: 40px;
         width: 480px;
         text-align: left;
         background: #fff;
         color: #91939F;
         font-size: 21px;
         font-weight: 400;
-    font-family: "Manrope", sans-serif;
+        font-family: "Manrope", sans-serif;
     }
 
 
 
     #room-details .buttons button:hover {
         width: 480px;
-        text-align: left; 
+        text-align: left;
         color: #003E52;
         border: #003E52;
     }
 
     #room-details .buttons button:focus {
-        color:#246161;
+        color: #246161;
     }
 
 
     #fondo-room {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../img/Habitaciones/portada-hotel-equinoccio-vista-habitacion-deluxe.webp); 
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Habitaciones/portada-hotel-equinoccio-vista-habitacion-deluxe.webp);
         height: 100vh;
         width: 100%;
         background-size: cover;
@@ -764,58 +779,63 @@
         margin-bottom: 145px;
     }
 
-    .map .card-body{
+    .map .card-body {
         border: 1px solid #91939F;
     }
 
-    .map .card-title{
+    .map .card-title {
         font-size: 28px;
     }
 
-    .map .card-text{
+    .map .card-text {
         font-weight: 400;
         font-size: 16px;
         font-family: "Manrope", sans-serif;
         color: #4C4D58;
     }
-    .map .card-body a{
+
+    .map .card-body a {
         width: 100%;
         color: #003E52;
         background: #C9FFFD;
     }
-    .map .card-body a:hover{
+
+    .map .card-body a:hover {
         width: 100%;
         color: #C9FFFD;
         background: #003E52;
     }
+
     /**/
 
     /*Habitacion Indivual Detalles*/
 
-    .categories .container-fluid{
+    .categories .container-fluid {
         margin: 10px;
         margin-left: 60px;
     }
 
-    .categories .container-fluid{
+    .categories .container-fluid {
         width: 110%;
     }
-    .return-room,.title-room {
+
+    .return-room,
+    .title-room {
         margin-left: 70px;
     }
 
-    .categories .return-room{
+    .categories .return-room {
         margin-top: 130px;
     }
 
-    .categories .title-room{
+    .categories .title-room {
         font-size: 48px;
         font-weight: 400;
         color: #18181B;
         font-family: "Playfair Display", serif;
     }
 
-    .categories .return-room a{   
+    .categories .return-room a {
         font-weight: 400;
         color: #18181B;
         font-family: "Protest Display", sans-serif;
@@ -827,9 +847,9 @@
         font-weight: 400;
         font-size: 24px;
     }
- 
+
     .map .row-row {
-        
+
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -839,59 +859,62 @@
         margin-left: -12px;
     }
 
-    .menufooter{
+    .menufooter {
         margin-top: -250px;
         margin-bottom: 25px;
     }
-    .menufooter hr{
+
+    .menufooter hr {
         color: #B8B9C1;
     }
 
     .return-room-footer {
         margin-left: 55px;
-    
+
     }
+
     .menufooter .return-room-footer2 a {
         margin-right: 50px;
     }
 
     .menufooter .return-room-footer2 a,
-    .menufooter .return-room-footer a
-     {
+    .menufooter .return-room-footer a {
         color: #737584;
         text-decoration: none;
         font-family: "Manrope", sans-serif;
         font-weight: 400;
         font-size: 20px;
     }
-    
+
     @media only screen and (max-width: 1000px) {
         .contenedor-gatronomia {
-        display: none; 
-        
+            display: none;
+
         }
+
         .reserve-btn {
             display: none;
         }
 
         .reserve-btn2 {
             margin-top: 45px;
-            display: block; 
+            display: block;
         }
 
-        #Gastronomia h5{
+        #Gastronomia h5 {
 
             text-align: center;
         }
 
         #Gastronomia {
-        
+
             text-align: start;
-        
+
         }
+
         #carouselExampleIndicators {
-        display: block; 
-        width: 345px;
+            display: block;
+            width: 345px;
         }
 
         .carousel-item img {
@@ -899,31 +922,33 @@
             height: auto;
             object-fit: cover;
         }
-    
+
     }
-    
-   
+
+
     @media only screen and (min-width: 1000px) {
         .contenedor-gatronomia {
-        
-        display: flex;
+
+            display: flex;
         }
+
         #carouselExampleIndicators {
-        display: none; 
+            display: none;
         }
     }
-    
+
 
     @media (max-width: 1000px) {
         footer {
-        justify-content: center;
-        text-align: center;
+            justify-content: center;
+            text-align: center;
         }
-    
+
         footer .nav,
         footer .col-md-4 {
-        flex-basis: 100%;
+            flex-basis: 100%;
         }
+
         footer .nav {
             justify-content: center !important;
         }
@@ -931,25 +956,26 @@
         #contact-details {
             flex-direction: column;
         }
-        
+
         #contact-details .details {
             width: 100%;
             margin-bottom: 30px;
         }
-        
+
         #contact-details .map {
             width: 100%;
         }
+
         /**/
         #room-details {
             flex-direction: column;
         }
-        
+
         #room-details .details {
             width: 100%;
             margin-bottom: 30px;
         }
-        
+
         #room-details .card-room {
             width: 100%;
         }
@@ -958,7 +984,7 @@
     @media (max-width: 1200px) {
         .card-Habitacion {
             width: 75%;
-          }
+        }
     }
 
 
@@ -968,80 +994,84 @@
             flex-direction: column;
             align-items: center;
         }
-        
+
         .contenedor-gatronomia2,
         .contenedor-gatronomia3 {
             width: 100%;
         }
 
-    
-        
-    #contact-details .map {
-        margin-left: 35px;
-        width: 100%;
-        height: 500px;
-        margin-bottom: 45px;
-    }
 
-    #contact-details .map iframe {
-        width: 78%;
-        height: 100%;
-    }
-    #contact-details .map {
-        margin-left: 6px;
-        margin-bottom: -35px;
-    }
 
-    #contact-details .map iframe {
-    width: 408px;
-    height: 350px;
-    }
+        #contact-details .map {
+            margin-left: 35px;
+            width: 100%;
+            height: 500px;
+            margin-bottom: 45px;
+        }
+
+        #contact-details .map iframe {
+            width: 78%;
+            height: 100%;
+        }
+
+        #contact-details .map {
+            margin-left: 6px;
+            margin-bottom: -35px;
+        }
+
+        #contact-details .map iframe {
+            width: 408px;
+            height: 350px;
+        }
 
 
     }
 
     @media (max-width: 478px) {
         #fondo-cotacto {
-            height: 70vh; 
-            
+            height: 70vh;
+
         }
-        
 
-    #contact-details {
-        margin-top: -25px;
-    margin-left: -25px;
+        .navbar-light {
+            margin-right: -58px;
+        }
+
+
+        #contact-details {
+            margin-top: -25px;
+            margin-left: -25px;
+        }
+
+
+        #contact-details .details h1 {
+            font-size: 28px;
+            font-weight: 400;
+            color: #18181B;
+            font-family: "Playfair Display", serif;
+        }
+
+        #contact-details .details h4 {
+            font-size: 20px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
+
+        #contact-details .details li i {
+            color: #088178;
+            padding: 10px;
+        }
+
+        #contact-details .map {
+            margin-left: 6px;
+            margin-bottom: -35px;
+        }
+
+        #contact-details .map iframe {
+            width: 308px;
+            height: 350px;
+        }
+
+
     }
-
-
-    #contact-details .details h1{
-        font-size: 28px;
-        font-weight: 400;
-        color: #18181B;
-        font-family: "Playfair Display", serif;
-    }
-
-    #contact-details .details h4 {
-        font-size: 20px;
-        font-family: "Manrope", sans-serif;
-        font-weight: 400;
-        padding-bottom: 15px;
-    }
-
-    #contact-details .details li i {
-        color: #088178;
-        padding: 10px;
-    }
-
-    #contact-details .map {
-        margin-left: 6px;
-        margin-bottom: -35px;
-    }
-
-    #contact-details .map iframe {
-    width: 308px;
-    height: 350px;
-    }
-
-
-    }
-
