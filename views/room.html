@@ -80,9 +80,9 @@
 
       <div class="buttons">
 
-        <button href="#" class="btn" onclick="mostrarHabitacion('Deluxe')">
+        <button href="#" class="btn " onclick="mostrarHabitacion('Deluxe')">
           Habitación Deluxe
-          <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 150px;" width="60" height="20" fill="currentColor"
+          <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 165px;" width="60" height="20" fill="currentColor"
             class="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
@@ -90,7 +90,7 @@
           </svg>
         </button>
         <hr>
-        <button href="#" class="btn" onclick="mostrarHabitacion('Comfort')">Habitación Comfort
+        <button href="#" class="btn " onclick="mostrarHabitacion('Comfort')">Habitación Comfort
 
           <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 150px;" width="60" height="20" fill="currentColor"
             class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -103,7 +103,7 @@
         <hr>
         <button href="#" class="btn" onclick="mostrarHabitacion('Insignia')">Habitación Insignia
 
-          <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 150px;" width="60" height="20" fill="currentColor"
+          <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 158px;" width="60" height="20" fill="currentColor"
             class="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
@@ -217,7 +217,33 @@
     </div>
   </div>
 </footer>
-<script src="../assets/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  
+  mostrarHabitacion();
+});
+
+function mostrarHabitacion(tipo) {
+  var habitaciones = document.querySelectorAll(".card-Habitacion");
+  var buttons = document.querySelectorAll(".buttons button");
+  habitaciones.forEach(function (habitacion) {
+    habitacion.style.display = "none";
+  });
+
+  if (!tipo) {
+    tipo = "Deluxe";
+  }
+
+  var carta = document.getElementById(tipo.toLowerCase());
+    var boton = document.querySelector('button[data-tipo="' + tipo + '"]');
+
+
+  if (carta) {
+    carta.style.display = "block";
+
+  }
+}
+</script>
 </body>
 
 </html>

@@ -74,7 +74,7 @@
 
 
     .section-p1 {
-        padding: 80px 85px;
+        padding: 40px 85px;
     }
 
     .reserve-btn li {
@@ -139,7 +139,7 @@
         width: 100%;
 
         background-size: cover;
-
+        background-position: 0 -135px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -261,9 +261,10 @@
     /**/
 
     .grid-card-container {
+  
         margin-top: -150px;
-        width: 89%;
-        height: 50vh;
+        width: 895px;
+        height: 80vh;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -277,32 +278,66 @@
         background: center;
         background-size: cover;
         background-repeat: no-repeat;
+        margin-right: 0;
     }
+
+    .grid-card-container{
+        margin: 0;
+        margin-left: 85px;
+    }
+    #Galeria{
+        margin-bottom: 350px;
+        padding: 25px;
+    }
+
+    .grid-card:nth-child(1),
+.grid-card:nth-child(2) {
+    width: 15vw; 
+    height: auto; 
+    padding-left: 250px;
+    margin-left: 0;
+}
+
 
     .grid-card:nth-child(1) {
         grid-row: 1/1;
-
-        background-image: url('../img/Inicio/Galeria/hombre-montado-en-kayak.webp');
-    }
+        background-image: url('../img/Inicio/Galeria/hombre-montado-en-jetski.webp');
+   
+     }
 
     .grid-card:nth-child(2) {
-
-        background-image: url('../img/Inicio/Galeria/hombre-montado-en-jetski.webp');
+        background-image: url('../img/Inicio/Galeria/hombre-montado-en-kayak.webp');
+  
+    }
+    .grid-card:nth-child(3) {
+        width: 25vw; 
     }
 
     .grid-card:nth-child(3) {
         grid-row: 1/3;
-
         background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-atardecer-muelle.webp');
     }
 
     .grid-card:nth-child(4) {
-        grid-row: 1/3;
+        width: 37vw; 
+        height: auto; 
+    }
 
+    .grid-card:nth-child(4) {
+        grid-row: 1/3;
         background-image: url('../img/Inicio/Galeria/hotel-equinoccio-vista-interna.webp');
     }
 
-
+    .grid-card:nth-child(5) {
+        width: 37vw;
+        height: auto;
+        grid-row: 1/3;
+        background-image: url('../img/Inicio/Header/logo-equinoccio-color.png');
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 28; /* Asegura que este sea mayor que el valor de z-index del elemento anterior */
+    }
 
     /**/
     /*Gatronomia*/
@@ -475,6 +510,102 @@
         display: none;
     }
 
+
+/**/
+
+.grid-card-container-food{
+  
+    margin-top: -150px;
+    width: 895px;
+    height: 60vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.2rem;
+    grid-auto-rows: 10rem;
+}
+
+.grid-card-food {
+    position: relative;
+    background: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+}
+
+.grid-card-container-food{
+    margin: 0;
+    margin-left: 85px;
+}
+#Gastronomia{
+    margin-bottom: 350px;
+    padding: 25px;
+}
+
+.grid-card-food:nth-child(1) {
+width: 25vw; 
+height: auto; 
+padding-left: 250px;
+margin-left: 0;
+}
+.grid-card-food:nth-child(2) {
+    width: 20vw; 
+  
+    }
+.grid-card-food:nth-child(1) {
+    grid-row: 1/3;
+    background-image: url('../img/Inicio/Gastronomia/plato-equinoccio-servido-en-bandeja.webp');
+
+ }
+
+.grid-card-food:nth-child(2) {
+    grid-row: 1/3;
+    background-image: url('../img/Inicio/Gastronomia/coctel-a-la-orilla-de-la-piscina.webp');
+
+}
+
+
+.grid-card-food:nth-child(3) {
+    grid-row: 1/1;
+    background-image: url('../img/Inicio/Gastronomia/plato-con-pasta-gastronomia-hotel-equinoccio.webp');
+}
+
+
+
+.grid-card-food:nth-child(4) {
+    background-image: url('../img/Inicio/Gastronomia/staff-equinoccio-sosteniendo-plato-de-pizza.webp');
+  
+}
+
+.grid-card-food:nth-child(5) {
+  
+    background-image: url('../img/Inicio/Gastronomia/pescado-frito-servido-en-bandeja.webp');
+}
+
+.grid-card-food:nth-child(6) {
+    background-image: url('../img/Inicio/Gastronomia/pareja-sosteniendo-bebidas-a-la-orilla-del-lago.webp');
+}
+
+.grid-card-food:nth-child(3),
+.grid-card-food:nth-child(5){
+    width: 15vw;
+    height: 50px;
+    height: auto;
+}
+
+.grid-card-food:nth-child(4),
+.grid-card-food:nth-child(6) {
+    width: 25vw;
+}
+
+
+
+
+
+
+
+
     /**/
 
 
@@ -533,6 +664,7 @@
         width: 100%;
         text-align: center;
         background: #003E52;
+        margin-top: 25px;
     }
 
 
@@ -782,10 +914,7 @@
         border: #003E52;
     }
 
-    #room-details .buttons button:focus {
-        color: #246161;
-    }
-
+ 
 
     #fondo-room {
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Habitaciones/portada-hotel-equinoccio-vista-habitacion-deluxe.webp);
@@ -819,6 +948,9 @@
         z-index: 1;
     }
 
+    #room-details .buttons button:focus {
+        color: #246161;
+    }
 
 
 
