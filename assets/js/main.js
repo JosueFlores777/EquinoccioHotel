@@ -109,7 +109,7 @@ $(document).ready(function () {
 
     anime({
       targets: $(".page"),
-      duration: 2000,
+      duration: 3000,
       update: function (anim) {
         $(".page").css(
           "clip-path",
@@ -120,7 +120,4 @@ $(document).ready(function () {
   }
 
   performAnimation();
-  $(".page").click(function (event) {
-    performAnimation();
-  });
 });
