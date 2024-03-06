@@ -115,6 +115,8 @@
         font-size: 15px;
     }
 
+    .fondo{  height: 100vh;
+        width: 100%;}
     #fondo {
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-aerea.webp);
         height: 100vh;
@@ -820,13 +822,17 @@
 
 
 
+    .fondo-room  {
+        margin-top: 125px;
+        width: 70%;
+    }
 
 
     #fondo-room h1 {
         color: #ffffff;
         font-size: 90px;
         font-family: "Playfair Display", serif;
-        width: 400;
+        font-weight: 400;
         margin-bottom: 145px;
     }
 
@@ -1152,6 +1158,12 @@
 
         #carouselExampleIndicators {
             display: none;
+        }
+
+        .contenedor-gatronomia {
+            margin-left: -125px;
+            
+            width: 80%;
         }
     }
 
