@@ -144,6 +144,9 @@
         position: relative;
         left: 0;
         z-index: 1;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     #fondo-cotacto {
@@ -154,7 +157,9 @@
         background-position: 0 -135px;
         background-size: cover;
         position: relative;
-    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         z-index: 1;
     }
 
@@ -1047,6 +1052,10 @@
      
     }
 
+    #room-details .buttons button svg {
+        margin-left: 175px; 
+    }
+
     .return-room,
     .title-room {
         margin-left: 70px;
@@ -1138,7 +1147,7 @@
     }
 
     #fondo-gastranomia .text-container {
-        margin-left: 495px;
+        margin-left: 505px;
 
     }
 
@@ -1198,8 +1207,8 @@
 
     #fondo-gastranomia1 {
         background-image: url(../img/Gastronomia/banner-gastronomia-equinoccio-cafe-postres.jpg);
-        height: 100vh;
-        width: 90%;
+        height: 80vh;
+        
         margin: 60px;
         background-position: 1px;
         background-size: cover;
@@ -1211,12 +1220,13 @@
         position: relative;
         left: 0;
         z-index: 1;
-        padding: 25px;
+        padding: 35px;
+      
     }
 
     #fondo-gastranomia2 {
         background-image: url(../img/Gastronomia/banner-piscina-hotel-equinoccio.webp);
-        height: 80vh;
+        height: 70vh;
         width: 100%;
         background-size: cover;
         display: flex;
@@ -1227,6 +1237,9 @@
         position: relative;
         left: 0;
         z-index: 1;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .contendor-gastronomia {
@@ -1295,7 +1308,22 @@
         margin: 56px;
     }
 
+
+
     @media only screen and (max-width: 1000px) {
+
+        #fondo-gastranomia .text-container {
+            margin-left: 105px;
+    
+        }
+        #fondo-gastranomia .fondo-title-gastranomia {
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 58px;
+         
+        }
+
         #Galeria #contact-details .map,#Galeria #contact-details .details {
           
             margin-left: 25px;
@@ -1413,7 +1441,7 @@
             margin-bottom: -210px;
         }
 
-        
+    
             
       
     }
@@ -1493,7 +1521,9 @@
             margin: 25px;
          
         }
-
+        #fondo-gastranomia .text-container {
+            margin-left: 525px;
+        }
         
         .grid-card:nth-child(1),.grid-card:nth-child(2){
             
@@ -1502,10 +1532,12 @@
 
         .grid-card-container {
             width: 595px;
-            height: 60vh;
+            height: 50vh;
             margin: 50px;
-         
+            
         }
+
+     
     }
 
 
@@ -1664,6 +1696,14 @@
         .grid-card-container {
             margin-top: -150px;
             width: 195px;
+        }
+
+        .grid-card-container {
+            width: 595px;
+            height: 50vh;
+            margin: 50px;
+            margin-left: 25px;
+            margin-top: 25px;
         }
     }
 
@@ -1848,5 +1888,24 @@
             height: 300px;
             margin-bottom: 45px;
         }
+        #fondo-room h1 {
+            color: #ffffff;
+            font-size: 50px;
+        
+        }
 
+        #room-details .buttons button {
+            margin-top: 40px;
+            
+            text-align: left;
+            background: #fff;
+            color: #91939F;
+            font-size: 21px;
+            font-weight: 400;
+            font-family: "Manrope", sans-serif;
+        }
+        #room-details .buttons button svg {
+            margin-left: 25px; 
+          }
+    
     }
