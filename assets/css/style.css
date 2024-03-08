@@ -281,13 +281,27 @@
         background: #003E52;
     }
 
+    #GaleriaHome #contact-details .map {
+  
+        margin-left: 35px;
+        width: 55%;
+        height: 500px;
+        margin-bottom: 45px;
+    }
     /**/
 
-    .grid-card-container {
+    #GaleriaHome  #contact-details .details h4 {
+        font-size: 23px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
 
+    .grid-card-container {
+      
         margin-top: -150px;
         width: 895px;
-        height: 60vh;
+        height: 80vh;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -556,7 +570,7 @@
 
         margin-top: -150px;
         width: 295px;
-        height: 40vh;
+        height: 65vh;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -629,12 +643,12 @@
     .grid-card-food:nth-child(3),
     .grid-card-food:nth-child(5) {
         width: 15vw;
-        height: 60px;
         height: auto;
     }
 
     .grid-card-food:nth-child(4),
     .grid-card-food:nth-child(6) {
+       
         width: 23vw;
     }
 
@@ -1497,7 +1511,7 @@
         .grid-card-container-food {
 
             width: 195px;
-            height: 40vh;
+            height: 65vh;
             margin-left: 60px;
             margin-right: 40px;
         }
@@ -1532,8 +1546,8 @@
 
         .grid-card-container {
             width: 595px;
-            height: 50vh;
-            margin: 50px;
+            height: 70vh;
+            margin-left: 50px;
             
         }
 
@@ -1700,7 +1714,7 @@
 
         .grid-card-container {
             width: 595px;
-            height: 50vh;
+            height: 70vh;
             margin: 50px;
             margin-left: 25px;
             margin-top: 25px;

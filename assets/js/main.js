@@ -98,7 +98,7 @@ $(document).ready(function () {
 
     anime({
       targets: $(".page1"),
-      duration: 3000,
+      duration: 5000,
       update: function (anim) {
         $(".page1").css(
           "clip-path",
