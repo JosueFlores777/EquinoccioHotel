@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
   <title>Equinoccio Hotel</title>
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet"
@@ -185,7 +186,7 @@
           Lorem ipsum is a placeholder text 
         </h1>
       
-        <button class="titlemain text-center">
+        <button class="titlemain text-center" onclick="descargarMenu()">
           <i class="material-symbols-outlined">
             download
             </i>
@@ -196,6 +197,20 @@
   </div>
   
 
+  <script>
+    function descargarMenu() {
+     
+      var pdfUrl = '../assets/archivo/menu_principal.pdf';
+    
+      // Crea un elemento <a> con el atributo 'download' y simula un clic para iniciar la descarga
+      var link = document.createElement('a');
+      link.href = pdfUrl;
+      link.download = 'menu_completo.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+    </script>
 </section>
 
 
@@ -241,7 +256,7 @@
     </div>
   </div>
 </footer>
-<script src="../assets/js/main.js"></script>
+
 </body>
 
 </html>

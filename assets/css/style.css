@@ -1517,7 +1517,6 @@
         }
 
         #gastramonia-comida {
-           
             margin-top: 175px;
             
         }
@@ -1550,8 +1549,18 @@
             margin-left: 50px;
             
         }
-
-     
+        #fondo-gastranomia .text-container {
+            margin-left: 405px;
+    
+        }
+        #fondo-gastranomia .fondo-title-gastranomia {
+            font-family: "Playfair Display", serif;
+            color: #fff7f7;
+            font-weight: 400;
+           
+            font-size: 38px;
+            line-height: 48px;
+        }
     }
 
 
@@ -1622,6 +1631,8 @@
         .container-fluid {
             display: none;
         }
+
+       
   
     }
     @media (max-width: 1400px) {
@@ -1631,9 +1642,6 @@
         }*/
  
     }
-
-
-
 
     @media (max-width: 1200px) {
         .fe-box-gastronomia{
@@ -1645,8 +1653,6 @@
             width: 320px;
 
         }
-
-     
         .material-symbols-outlined {
         
             font-size: 5px;
@@ -1666,9 +1672,7 @@
             
             padding: 25px;
             margin-left: -45px;
-         
         }
-
 
         #room-details .map {
 
@@ -1781,10 +1785,6 @@
             height: 350px;
         }
 
-        #gastramonia-comida {
-            margin-top: 50px;
-        }
-
         #Galeria #contact-details .map {
             margin-bottom: -150px;
         }
@@ -1794,9 +1794,35 @@
             margin-left: -35px;
             width: 550px;
             height: 600px;
-
             margin-bottom: -35px;
         }
+
+
+        #gastramonia-comida {
+            margin-top: 350px;
+        }
+
+        /**/
+        .fe-box-gastronomia {
+             width: 190px;
+            margin-left: -14px;
+        }
+        #fondo-gastranomia .fondo-title-gastranomia {
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 42px;
+        }
+        .fe-box-gastronomia p{
+            font-size: 15   px;
+       
+        }
+        .fe-box-gastronomia h6{
+            font-size: 20px;
+        }
+
+
+
     }
 
     @media (max-width: 668px) {
@@ -1922,4 +1948,28 @@
             margin-left: 25px; 
           }
     
+    }
+
+    @media screen and (max-width: 425px) {
+        #fondo h1 {
+            font-size: 35px;
+        }
+
+        #fondo .titlePmain {
+            font-size: 13px;
+        }
+
+        #GaleriaHome #contact-details .details h4 {
+                margin-left: -75px;
+            font-size: 23px;
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
+
+        #GaleriaHome  #contact-details .map p{
+            font-size: 18px;
+    margin-left: -125px;
+    width: 250px;
+        }
     }

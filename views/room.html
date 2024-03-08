@@ -26,49 +26,51 @@
 </head>
 
 <body>
-  <nav id="header" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-      <img src="../assets/img/Inicio/Header/logo-equinoccio-blanco.png" class="logo" width="140px" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  
+    <nav id="header" class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/img/Inicio/Header/logo-equinoccio-blanco.png" class="logo" width="140px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto" id="navbar">
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link active" href="./room.html">Habitaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./gastronomy.html">Gastronomía</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contacto</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="navbar">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="./room.html">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gastronomy.html">Gastronomía</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contacto</a>
+          </li>
+        </ul>
 
-      <li class="reserve-btn">
-        <button>
-          <i class="material-symbols-outlined"> calendar_month </i> Reservar
-          Ahora
-        </button>
-      </li>
-    </div>
-  </nav>
+        <li class="reserve-btn">
+          <button>
+            <i class="material-symbols-outlined"> calendar_month </i> Reservar
+            Ahora
+          </button>
+        </li>
+      </div>
+    </nav>
+    <div class="page2">
 
-
-  <section id="fondo-room">
+    <section id="fondo-room">
     <div class="fondo-room">
       <h1 >
         Encuentra tu lugar de descanso
       </h1>
       </button>
     </div>
-  </section>
+   </section>
+  </div>
   <style>
     .card-Habitacion {
       display: none;
@@ -170,12 +172,9 @@
           </a>
         </div>
       </div>
+      
     </div>
   </section>
-
-</body>
-
-</html>
 
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center  section-p1">
@@ -220,6 +219,8 @@
     </div>
   </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
   
@@ -245,6 +246,28 @@ function mostrarHabitacion(tipo) {
     carta.style.display = "block";
 
   }
+
+  $(document).ready(function () {
+  function performAnimation() {
+    var x = window.innerWidth / 2;
+    var y = window.innerHeight;
+
+    $(".page2").css("z-index", 1);
+
+    anime({
+      targets: $(".page2"),
+      duration: 4000,
+      update: function (anim) {
+        $(".page2").css(
+          "clip-path",
+          "circle(" + anim.progress * 2 + "% at " + x + "px " + y + "px)"
+        );
+      },
+    });
+  }
+
+  performAnimation();
+});
 }
 </script>
 </body>
