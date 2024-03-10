@@ -1266,7 +1266,10 @@
         width: 40%;
         color: #070707;
         background: #ffffff;
+    }
 
+    .contendor-gastronomia2 {
+        display: none;
     }
 
     .texto-gastronomia {
@@ -1328,9 +1331,13 @@
     }
 
 
-#GaleriaHome #carouselExampleIndicators {
-    display: none;
-}
+    #GaleriaHome #carouselExampleIndicators {
+        display: none;
+    }
+
+    #Gastronomia #carouselExampleIndicators1 {
+        display: none;
+    }
 
     @media only screen and (max-width: 1000px) {
 
@@ -1399,7 +1406,7 @@
 
         }
 
-        .carousel-inner{
+        .carousel-inner {
             margin-top: 25px;
             margin-bottom: 25px;
         }
@@ -1409,6 +1416,7 @@
             width: 65%;
             margin: auto;
         }
+
         #carouselExampleIndicators1 {
             display: block;
             width: 65%;
@@ -1696,9 +1704,7 @@
         }
 
         .material-symbols-outlined {
-
             font-size: 5px;
-
         }
 
         .fe-box .iconsRoomIndex p {
@@ -1769,35 +1775,62 @@
         }
     }
 
-    @media(max-width: 999px){
+    @media(max-width: 999px) {
         #GaleriaHome .grid-card-container {
             margin-top: -450px
         }
     }
 
-
-    @media (max-width: 768px) {
-        #GaleriaHome #carouselExampleIndicators{
-            display: block;
-        }
-
-        #Gastronomia .grid-card-container-food{
-            display: block;
-        }
-
-        #GaleriaHome #carouselExampleIndicators{
-            margin-top: -390px;
-        }
-
-        #GaleriaHome .grid-card-container{
+    @media(max-width: 900px) {
+        .contendor-gastronomia {
             display: none;
         }
+
+        .contendor-gastronomia2 {
+            margin-top: -45px;
+            width: 80%;
+            margin-left: 35px;
+            display: block;
+            padding: 25px;
+            color: #070707;
+            background: #ffffff;
+        }
+    }
+
+
+    @media (max-width: 768px) {
+
+        .text-left {
+            text-align: center !important;
+        }
+
+        #GaleriaHome #carouselExampleIndicators {
+            display: block;
+        }
+
+        #Gastronomia .grid-card-container-food {
+            display: none;
+        }
+
+        #GaleriaHome #carouselExampleIndicators {
+            margin-top: -320px;
+        }
+
+        #GaleriaHome .grid-card-container {
+            display: none;
+        }
+
+
+        #Gastronomia #carouselExampleIndicators1 {
+            display: block;
+        }
+
         .carousel-item img {
             width: 450px;
             margin: auto;
         }
 
-        .carousel-inner{
+        .carousel-inner {
             margin-top: 25px;
             margin-bottom: 25px;
         }
@@ -1808,12 +1841,15 @@
             margin: auto;
         }
 
-        #GaleriaHome #contact-details .map p {
+        #fondo-gastranomia .text-container {
+            margin-left: 15px;
+        }
 
-            font-size: 18px;
+        #GaleriaHome #contact-details .map p {
+            line-height: 42px;
+            font-size: 38px;
             margin-left: -48px;
             width: 480px;
-
         }
 
         #Galeria #contact-details {
@@ -1918,7 +1954,12 @@
 
     @media (max-width: 668px) {
 
-    
+
+        #gastramonia-comida {
+            margin-top: 600px;
+            margin-left: 65px;
+        }
+
         #room-details .map {
             margin-left: -55px;
             width: 530px;
@@ -1947,32 +1988,48 @@
 
 
     @media (max-width: 478px) {
-        #GaleriaHome #carouselExampleIndicators{
-            margin-top: -210px;
+        .fe-box-gastronomia {
+            margin-top: -5px;
+            width: 290px;
+            margin-left: -45px;
         }
 
+        #GaleriaHome #carouselExampleIndicators {
+            margin-top: -10px;
+        }
+
+        #fondo-gastranomia .fondo-title-gastranomia {
+
+            font-size: 28px;
+            line-height: 38px;
+        }
 
         .carousel-item img {
             width: 350px;
-           
+
             margin: auto;
         }
-        .carousel-control-next-icon, .carousel-control-prev-icon {
+
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon {
             background: #003e52 no-repeat center center;
-     
+
         }
 
 
-        .carousel-inner{
+        .carousel-inner {
             margin-top: 25px;
             margin-bottom: 25px;
         }
+
         #carouselExampleIndicators {
             display: block;
             width: 85%;
             margin: auto;
         }
-        .return-room, .title-room {
+
+        .return-room,
+        .title-room {
             margin-left: 30px;
         }
 
@@ -2020,7 +2077,7 @@
         }
 
         #Galeria #contact-details p {
-            margin-left: 0px;
+            margin-left: -65px;
             font-size: 10px;
         }
 
@@ -2077,7 +2134,7 @@
 
         }
 
-    
+
 
         #room-details .buttons button {
             margin-top: 40px;
@@ -2097,6 +2154,13 @@
     }
 
     @media screen and (max-width: 425px) {
+
+        #fondo-gastranomia .fondo-title-gastranomia {
+
+            font-size: 26px;
+            line-height: 31px;
+        }
+
         #header-color {
             padding: 15px 15px;
 
