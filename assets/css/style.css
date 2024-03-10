@@ -1328,6 +1328,9 @@
     }
 
 
+#GaleriaHome #carouselExampleIndicators {
+    display: none;
+}
 
     @media only screen and (max-width: 1000px) {
 
@@ -1402,6 +1405,11 @@
         }
 
         #carouselExampleIndicators {
+            display: block;
+            width: 65%;
+            margin: auto;
+        }
+        #carouselExampleIndicators1 {
             display: block;
             width: 65%;
             margin: auto;
@@ -1761,11 +1769,29 @@
         }
     }
 
+    @media(max-width: 999px){
+        #GaleriaHome .grid-card-container {
+            margin-top: -450px
+        }
+    }
 
 
     @media (max-width: 768px) {
+        #GaleriaHome #carouselExampleIndicators{
+            display: block;
+        }
 
+        #Gastronomia .grid-card-container-food{
+            display: block;
+        }
 
+        #GaleriaHome #carouselExampleIndicators{
+            margin-top: -390px;
+        }
+
+        #GaleriaHome .grid-card-container{
+            display: none;
+        }
         .carousel-item img {
             width: 450px;
             margin: auto;
@@ -1891,6 +1917,8 @@
     }
 
     @media (max-width: 668px) {
+
+    
         #room-details .map {
             margin-left: -55px;
             width: 530px;
@@ -1919,6 +1947,10 @@
 
 
     @media (max-width: 478px) {
+        #GaleriaHome #carouselExampleIndicators{
+            margin-top: -210px;
+        }
+
 
         .carousel-item img {
             width: 350px;
@@ -2044,6 +2076,8 @@
             font-size: 50px;
 
         }
+
+    
 
         #room-details .buttons button {
             margin-top: 40px;
