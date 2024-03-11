@@ -1339,6 +1339,19 @@
         display: none;
     }
 
+    
+    #room-details .buttons .deluxMarginLeft{
+        margin-left: 165px;
+    }
+
+    #room-details .buttons .ConforMarginLeft{
+        margin-left: 150px;
+    }
+
+    #room-details .buttons .insigniaMarginLeft{
+        margin-left: 158px;
+    }
+
     @media only screen and (max-width: 1000px) {
 
         #fondo-gastranomia .text-container {
@@ -1966,9 +1979,8 @@
         }
 
         #room-details .map {
-            margin-left: -55px;
+            margin-left: -95px;
             width: 530px;
-
             height: 500px;
             margin-bottom: 45px;
         }
@@ -2000,7 +2012,25 @@
         #room-details .buttons {
   
             margin-top: 55px;
-            margin-left: -50px;
+            margin-left: -250px;
+        }
+
+        #room-details .buttons button {
+            margin-top: 40px;
+            width: 180px;
+
+        }
+
+        #room-details .buttons .deluxMarginLeft{
+            margin-left: 150px;
+        }
+
+        #room-details .buttons .ConforMarginLeft{
+            margin-left: 135px;
+        }
+
+        #room-details .buttons .insigniaMarginLeft{
+            margin-left: 143px;
         }
     }
 
@@ -2220,6 +2250,18 @@
             margin-left: -50px;
             margin-top: -25px;
             margin-bottom: -40px;
+        }
+        
+        #room-details .buttons .deluxMarginLeft{
+            margin-left: 55px;
+        }
+
+        #room-details .buttons .ConforMarginLeft{
+            margin-left: 40px;
+        }
+
+        #room-details .buttons .insigniaMarginLeft{
+            margin-left: 42px;
         }
 
     }
