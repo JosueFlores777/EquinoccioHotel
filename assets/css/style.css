@@ -1552,8 +1552,8 @@
         }
 
         #gastramonia-comida {
-            margin-top: 175px;
-
+            /*margin-top: 175px;*/
+            margin-top: 45px;
         }
 
 
@@ -1588,7 +1588,7 @@
         }
 
         #fondo-gastranomia .text-container {
-            margin-left: 405px;
+            margin-left: 495px;
 
         }
 
@@ -1596,7 +1596,6 @@
             font-family: "Playfair Display", serif;
             color: #fff7f7;
             font-weight: 400;
-
             font-size: 38px;
             line-height: 48px;
         }
@@ -1684,10 +1683,10 @@
     }
 
     @media (max-width: 1400px) {
-        /* .fe-box-gastronomia{
-            margin-left: -120px;
-           
-        }*/
+        #gastramonia-comida {
+            margin-top: 90px;
+        
+        }
 
     }
 
@@ -1799,6 +1798,10 @@
 
 
     @media (max-width: 768px) {
+
+        #fondo-room h1 {
+            font-size: 70px;
+        }
 
         .text-left {
             text-align: center !important;
@@ -1953,10 +1956,12 @@
     }
 
     @media (max-width: 668px) {
-
+        #fondo-room h1 {
+            font-size: 60px;
+        }
 
         #gastramonia-comida {
-            margin-top: 600px;
+            margin-top: 400px;
             margin-left: 65px;
         }
 
@@ -1984,10 +1989,28 @@
         #fondo h1 {
             margin-top: -225px;
         }
+
+        /*Habiacion*/
+        .buttons hr {
+            color: #D5F2EE;
+            margin-bottom: 15px;
+            width: 75%;
+        }
+
+        #room-details .buttons {
+  
+            margin-top: 55px;
+            margin-left: -50px;
+        }
     }
 
 
     @media (max-width: 478px) {
+    
+        #gastramonia-comida {
+            margin-top: 580px;
+            margin-left: 65px;
+        }
         .fe-box-gastronomia {
             margin-top: -5px;
             width: 290px;
@@ -2120,7 +2143,7 @@
             width: 308px;
             height: 350px;
         }
-
+/*Habitacionn*/
         #room-details .map {
             margin-left: -35;
             width: 390px;
@@ -2128,13 +2151,21 @@
             margin-bottom: 45px;
         }
 
+        .fondo-room {
+            margin-top: 125px;
+            width: 350px;
+        }
         #fondo-room h1 {
             color: #ffffff;
-            font-size: 50px;
-
+            font-size: 35px;
+            line-height: 40.8px;
         }
 
-
+        .buttons hr {
+            color: #D5F2EE;
+            margin-bottom: 15px;
+            width: 65%;
+        }
 
         #room-details .buttons button {
             margin-top: 40px;
@@ -2149,6 +2180,46 @@
 
         #room-details .buttons button svg {
             margin-left: 25px;
+        }
+
+        .buttons hr {
+            color: #D5F2EE;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        #room-details .buttons {
+  
+            margin-top: 55px;
+            margin-left: -150px;
+        }
+
+        #room-details .buttons button {
+            margin-top: 40px;
+            width: 180px;
+            text-align: left;
+
+        }
+
+        #room-details .buttons button:hover {
+            width: 180px;
+            text-align: left;
+
+        }
+        #room-details .map {
+            margin-left: -65px;
+            width: 430px;
+            height: 600px;
+            margin-bottom: 45px;
+        }
+
+        #room-details .details h1 {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 33px;
+            margin-left: -50px;
+            margin-top: -25px;
+            margin-bottom: -40px;
         }
 
     }
@@ -2189,5 +2260,12 @@
             font-size: 18px;
             margin-left: -125px;
             width: 250px;
+        }
+
+        #room-details .map {
+            margin-left: -85px;
+            width: 350px;
+            height: 560px;
+            margin-bottom: 45px;
         }
     }
