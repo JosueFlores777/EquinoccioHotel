@@ -294,10 +294,17 @@
         margin-bottom: 45px;
     }
 
+    #Gastronomia h1{
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+    }
+
     /**/
 
     #GaleriaHome #contact-details .details h4 {
-        font-size: 23px;
+        font-size: 40px;
         font-family: "Playfair Display", serif;
         font-weight: 400;
         padding-bottom: 15px;
@@ -1713,16 +1720,20 @@
 
     }
 
+    @media screen and (max-width: 1300px){
+        .grid-card-container {
+             margin-top: 105px;
+        }
+    }
+
     @media (max-width: 1200px) {
         .fe-box-gastronomia {
             /* width: 230px;*/
             margin-left: -10px;
-
         }
 
         #Room .fe-box {
             width: 320px;
-
         }
 
         .material-symbols-outlined {
@@ -1793,13 +1804,14 @@
             height: 70vh;
             margin: 50px;
             margin-left: 25px;
-            margin-top: 25px;
+            margin-top: 175px;
         }
     }
 
     @media(max-width: 999px) {
         #GaleriaHome .grid-card-container {
-            margin-top: -450px
+            margin-top: -450px;
+            margin-left: 65px;
         }
     }
 
@@ -1818,7 +1830,6 @@
             background: #ffffff;
         }
     }
-
 
     @media (max-width: 768px) {
 
