@@ -1352,6 +1352,14 @@
         margin-left: 158px;
     }
 
+    .card-habitacion2{
+        display: none;
+    }
+
+    .icono-bootstrap {
+        fill: white; 
+    }
+
     @media only screen and (max-width: 1000px) {
 
         #fondo-gastranomia .text-container {
@@ -1503,7 +1511,6 @@
 
     }
 
-
     @media only screen and (min-width: 1000px) {
         .grid-card-container {
             width: 105px;
@@ -1615,7 +1622,6 @@
 
 
     }
-
 
     @media (max-width: 1000px) {
         #GaleriaHome #contact-details .map p {
@@ -2032,8 +2038,23 @@
         #room-details .buttons .insigniaMarginLeft{
             margin-left: 143px;
         }
-    }
+        #GaleriaHome #contact-details .map p {
+            font-size: 18px;
+            margin-left: -45px;
+            width: 350px;
+        }
 
+        #GaleriaHome #carouselExampleIndicators {
+            margin-top: -200px;
+        }
+
+        .card-habitacion{
+            display: none;
+        }
+        .card-habitacion2{
+            display: block;
+        }
+    }
 
     @media (max-width: 478px) {
     
@@ -2048,7 +2069,7 @@
         }
 
         #GaleriaHome #carouselExampleIndicators {
-            margin-top: -10px;
+            margin-top: -150px;
         }
 
         #fondo-gastranomia .fondo-title-gastranomia {
@@ -2247,7 +2268,7 @@
             font-size: 28px;
             font-weight: 400;
             line-height: 33px;
-            margin-left: -50px;
+            margin-left: -20px;
             margin-top: -25px;
             margin-bottom: -40px;
         }
@@ -2264,12 +2285,42 @@
             margin-left: 42px;
         }
 
+        #GaleriaHome #contact-details .map p {
+            font-size: 18px;
+            margin-left: -125px;
+            width: 350px;
+        }
+        #GaleriaHome #contact-details .details h4 {
+            margin-left: -73px;
+            font-size: 23px;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
+
+        #room-details {
+            margin-left: 5px;
+        }
+
+        #room-details h1{
+            margin-left: -18px;
+        }
+
+        /*detalles habitacion*/
+        .menufooter hr {
+            color: #B8B9C1;
+            width: auto;
+        }
+        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+            font-size: 15px;
+        }
+        .return-room-footer {
+            margin-left: 15px;
+        }
     }
 
     @media screen and (max-width: 425px) {
 
         #fondo-gastranomia .fondo-title-gastranomia {
-
             font-size: 26px;
             line-height: 31px;
         }
@@ -2292,7 +2343,7 @@
         }
 
         #GaleriaHome #contact-details .details h4 {
-            margin-left: -75px;
+            margin-left: -75px; 
             font-size: 23px;
             font-weight: 400;
             padding-bottom: 15px;
@@ -2301,13 +2352,32 @@
         #GaleriaHome #contact-details .map p {
             font-size: 18px;
             margin-left: -125px;
-            width: 250px;
+            width: 350px;
         }
 
         #room-details .map {
-            margin-left: -85px;
-            width: 350px;
+            margin-left: -125px;
+           /* width: 350px;*/
             height: 560px;
             margin-bottom: 45px;
+        }
+        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+            font-size: 11px;
+        }
+        .return-room-footer {
+            margin-left: 15px;
+        }
+    }
+
+    @media screen and (max-width: 414px){
+        #room-details .map {          
+            margin-left: -85px;
+        }
+        
+    }
+
+    @media screen and (max-width: 425px) and (min-width: 416px) {
+        #room-details .map {
+            margin-left: -75px;
         }
     }
