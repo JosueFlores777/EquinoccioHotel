@@ -2113,6 +2113,18 @@
 
     @media (max-width: 478px) {
     
+        .carousel-caption{
+            width: 48%;
+        }
+
+        .carousel-caption h3{
+            font-size: 23px;
+            width: 80%;
+        }
+
+        .carousel-caption p{
+            width: 80%;
+        }
 
         #carouselExampleIndicators1 {
             width: 80%;
@@ -2132,8 +2144,6 @@
             margin-top: -410px;
         }
 
-
-
         #fondo-gastranomia .fondo-title-gastranomia {
 
             font-size: 28px;
@@ -2142,6 +2152,21 @@
 
         .carousel-item img {
             width: 350px;
+            margin: auto;
+        }
+        #carouselExampleControls {
+    
+            height: 395px;
+            overflow: hidden;
+        }
+
+        #experiencia #carouselExampleControls .carousel-item img {
+            width: 450px;
+            margin: auto;
+        }
+
+        #experiencia #carouselExampleControls .carousel-item img {
+            width: 450px;
             margin: auto;
         }
 
