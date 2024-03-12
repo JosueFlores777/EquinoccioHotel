@@ -860,8 +860,6 @@
 
     /*Room*/
 
-
-
     #room-details .details {
         width: 40%;
     }
@@ -877,7 +875,6 @@
         justify-content: center;
         gap: 20px;
     }
-
 
     #room-details .details h1 {
         font-size: 40px;
@@ -926,7 +923,6 @@
         margin-bottom: 28px;
         line-height: 40px;
     }
-
     /**/
     #room-details {
         display: flex;
@@ -967,16 +963,12 @@
         font-family: "Manrope", sans-serif;
     }
 
-
-
     #room-details .buttons button:hover {
         width: 480px;
         text-align: left;
         color: #003E52;
         border: #003E52;
     }
-
-
 
     #fondo-room {
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Habitaciones/portada-hotel-equinoccio-vista-habitacion-deluxe.webp);
@@ -1013,8 +1005,6 @@
     #room-details .buttons button:focus {
         color: #246161;
     }
-
-
 
     .fondo-room {
         margin-top: 125px;
@@ -1063,9 +1053,6 @@
         background: #003E52;
         justify-content: center;
     }
-
-    /**/
-
     /*Habitacion Indivual Detalles*/
 
     .categories .container-fluid {
@@ -1125,7 +1112,6 @@
         margin-right: -15px;
         margin-left: -12px;
     }
-
 
     /*gastranomia sec*/
 
@@ -1636,7 +1622,6 @@
 
     @media (max-width: 1000px) {
         #GaleriaHome #contact-details .map p {
-
             font-size: 18px;
             margin-left: -48px;
             width: 650px;
@@ -1658,9 +1643,7 @@
         }
 
         #Galeria #contact-details p {
-
             margin-left: -50px;
-
         }
 
         footer {
@@ -1708,7 +1691,7 @@
             display: none;
         }
 
-
+  
 
     }
 
@@ -1816,7 +1799,41 @@
     @media(max-width: 999px) {
         #GaleriaHome .grid-card-container {
             margin-top: -450px;
-            margin-left: 65px;
+            margin-left: 75px;
+        }
+
+        .grid-card-container {
+            width: 295px;
+            height: 30vh;
+            margin: 50px;
+            margin-top: 175px;
+        }
+        .grid-card:nth-child(1), .grid-card:nth-child(2){
+            width: 15vw;
+           
+        }
+        .grid-card:nth-child(3) {
+            width: 22vw;
+            height: auto;
+        }
+
+        .grid-card:nth-child(4) {
+            width: 25vw;
+            height: auto;
+        }
+
+        .grid-card-container-food {
+            margin-top: -150px;
+            width: 195px;
+            height: 45vh;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1.2rem;
+            grid-auto-rows: 10rem;
+            margin-left: -5px;
+            margin-right: 0px;
         }
     }
 
