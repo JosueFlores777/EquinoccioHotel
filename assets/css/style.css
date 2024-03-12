@@ -2113,6 +2113,11 @@
 
     @media (max-width: 478px) {
     
+
+        #carouselExampleIndicators1 {
+            width: 80%;
+            margin: auto;
+        }
         #gastramonia-comida {
             margin-top: 580px;
             margin-left: 65px;
@@ -2418,7 +2423,10 @@
     }
 
     @media screen and (max-width: 425px) {
-
+        #carouselExampleIndicators1 {
+            width: 100%;
+            margin: auto;
+        }
         #Gastronomia h1{
             font-size: 28px;
             line-height: 35px;
