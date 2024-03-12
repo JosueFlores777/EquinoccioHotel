@@ -1806,6 +1806,11 @@
             margin-left: 25px;
             margin-top: 175px;
         }
+
+        #Gastronomia {
+       
+            margin-left: -5px;
+        }
     }
 
     @media(max-width: 999px) {
@@ -1832,6 +1837,12 @@
     }
 
     @media (max-width: 768px) {
+        #Gastronomia h1{
+            font-size: 44px;
+           text-align: center;
+           line-height: 46px;
+           font-weight: 400;
+       }
 
         #fondo-room h1 {
             font-size: 70px;
@@ -1992,6 +2003,11 @@
     @media (max-width: 668px) {
         #fondo-room h1 {
             font-size: 60px;
+        }
+
+        #room-details .buttons button:hover  {
+            margin-top: 40px;
+            width: 180px;
         }
 
         #gastramonia-comida {
@@ -2158,6 +2174,13 @@
 
         #fondo h1 {
             font-size: 45px;
+        }
+
+       #Gastronomia h1{
+             font-size: 36px;
+            text-align: center;
+            line-height: 35px;
+            font-weight: 400;
         }
 
         #fondo .titlePmain {
@@ -2339,19 +2362,51 @@
         }
 
         /*detalles habitacion*/
+
+        .menufooter {
+            margin-top: -50px;
+            margin-bottom: 25px;
+            width: 96%;
+        }
         .menufooter hr {
             color: #B8B9C1;
             width: auto;
         }
+        .menufooter .return-room-footer2 a{
+            margin-right: 20px;
+        }
+
         .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
             font-size: 15px;
         }
         .return-room-footer {
-            margin-left: 15px;
+            margin-left: 
+            15px;
+        }
+
+        /*Gatronomia*/
+        #fondo-gastranomia1 {
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+            background-position: 1px;
+            margin-bottom: 35px;
+        }
+
+        .contendor-gastronomia2 {
+            margin-top: -45px;
+            width: 90%;
+            margin-left: 5px;
         }
     }
 
     @media screen and (max-width: 425px) {
+
+        #Gastronomia h1{
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 400;
+        }
 
         #fondo-gastranomia .fondo-title-gastranomia {
             font-size: 26px;
@@ -2377,7 +2432,7 @@
 
         #GaleriaHome #contact-details .details h4 {
             margin-left: -75px; 
-            font-size: 23px;
+            font-size: 29px;
             font-weight: 400;
             padding-bottom: 15px;
         }
