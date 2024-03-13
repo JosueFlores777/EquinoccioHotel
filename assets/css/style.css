@@ -1914,6 +1914,7 @@
 
         #GaleriaHome #contact-details .map p {
             line-height: 42px;
+            font-family: "Manrope", sans-serif;
             font-size: 38px;
             margin-left: -48px;
             width: 480px;
@@ -2427,7 +2428,7 @@
         }
 
         #GaleriaHome #contact-details .map p {
-            font-size: 18px;
+            font-size: 16px;
             margin-left: -125px;
             width: 350px;
         }
@@ -2536,7 +2537,7 @@
         }
 
         #GaleriaHome #contact-details .map p {
-            font-size: 18px;
+            font-size: 16px;
             margin-left: -125px;
             width: 290px;
         }
