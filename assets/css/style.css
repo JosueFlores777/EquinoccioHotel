@@ -2127,8 +2127,8 @@
 
     @media (max-width: 633px){
         #room-details .map {
-            margin-left: -65px;
-            width: 530px;
+            margin-left: -95px;
+            width: 140%;
             height: 500px;
             margin-bottom: 45px;
         }
@@ -2138,7 +2138,7 @@
     @media (max-width: 523px){
         #room-details .map {
             margin-left: -95px;
-            width: 530px;
+            width: 150%;
             height: 500px;
             margin-bottom: 45px;
         }
@@ -2390,7 +2390,7 @@
         }
         #room-details .map {
             margin-left: -65px;
-            width: 150%;
+            width: 130%;
             height: 600px;
             margin-bottom: 45px;
         }
@@ -2533,7 +2533,7 @@
 
         #room-details .map {
             margin-left: -125px;
-           /* width: 350px;*/
+            width: 150%;
             height: 560px;
             margin-bottom: 45px;
         }
