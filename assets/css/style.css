@@ -194,6 +194,18 @@
         margin: 0 auto;
     }
 
+
+    .textFondo2 {
+        margin-bottom: -56vh;
+    }
+
+    #fondo .textFondo2{
+        text-align: center;
+    }
+
+    #fondo .textFondo2 button {
+        margin: 0 auto;
+    }
     #GaleriaHome #contact-details .map .col p{
         font-weight: 400;
         font-family: "Manrope", sans-serif;
@@ -1371,6 +1383,17 @@
         fill: white; 
     }
 
+    .textoGaleria p{
+        font-family: "Manrope", sans-serif;
+        color: #4C4D58;
+        line-height: 26.6px;
+        font-size: 18px;
+    }
+
+    #Galeria #contact-details {
+        margin-bottom: -440px
+    }
+
     @media only screen and (max-width: 1000px) {
 
         #fondo-gastranomia .text-container {
@@ -1403,7 +1426,6 @@
         #fondo-gastranomia1 {
 
             height: 50vh;
-
             margin: 60px;
             background-position: 1px;
 
@@ -1511,7 +1533,6 @@
         /*room*/
 
         /*galeria*/
-
 
         #Galeria {
             margin-bottom: -210px;
@@ -1652,7 +1673,7 @@
         }
 
         #Galeria #contact-details {
-            margin-bottom: -550px;
+            margin-bottom: -480px;
 
         }
 
@@ -1932,7 +1953,7 @@
         }
 
         #Galeria #contact-details {
-            margin-bottom: -350px;
+            margin-bottom: -480px;
         }
 
         #Galeria #contact-details h4 {
@@ -2065,7 +2086,7 @@
         }
 
         #Galeria #contact-details {
-            margin-bottom: -280px;
+            margin-bottom: -380px;
         }
 
         #Galeria #contact-details h4 {
@@ -2312,6 +2333,14 @@
             width: 85%;
             margin: auto;
         }
+        #Galeria #contact-details .map {
+            margin-bottom: -450px;
+        }
+
+        #Galeria #contact-details {
+            margin-bottom: -450px;
+        }
+
 
         .return-room,
         .title-room {
@@ -2365,7 +2394,7 @@
         }
 
         #Galeria #contact-details {
-            margin-bottom: -190px;
+            margin-bottom: -130px;
         }
 
         #Galeria #contact-details h4 {
@@ -2375,7 +2404,7 @@
 
         #Galeria #contact-details p {
             margin-left: -65px;
-            font-size: 10px;
+            font-size: 19px;
         }
 
         .navbar-light {
@@ -2572,6 +2601,10 @@
     }
 
     @media screen and (max-width: 425px) {
+
+        #Galeria #contact-details {
+            margin-bottom: -300px;
+        }
         #carouselExampleIndicators1 {
             width: 100%;
             margin: auto;
@@ -2588,7 +2621,9 @@
         }
 
        
-
+        #Galeria #contact-details .map {
+            margin-bottom: -280px;
+        }
         #header-color {
             padding: 15px 15px;
 
@@ -2663,4 +2698,10 @@
             margin-left: -75px;
         }
    
+    }
+
+    @media screen and (max-width: 375px){
+        #Galeria #contact-details {
+            margin-bottom: -250px;
+        }
     }
