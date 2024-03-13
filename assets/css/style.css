@@ -1291,7 +1291,10 @@
         margin-top: -50px;
         margin-bottom: 25px;
     }
-
+    .arrow-icon {
+        width: 20px;
+        height: 20px;
+    }
     .menufooter hr {
         color: #B8B9C1;
     }
@@ -2016,6 +2019,14 @@
     }
 
     @media (max-width: 668px) {
+
+        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+            font-size: 17px;
+        }
+        .arrow-icon{
+            width: 17px;
+            height: 17px;
+        }
         #experiencia .carousel-item img {
             width: 650px;
             margin: auto;
@@ -2124,6 +2135,14 @@
 
     
     @media (max-width: 523px){
+        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+            font-size: 15px;
+        }
+        .arrow-icon{
+            width: 15px;
+            height: 15px;
+        }
+
         #room-details .map {
             margin-left: -95px;
             width: 150%;
@@ -2133,7 +2152,10 @@
     }
 
     @media (max-width: 478px) {
-
+        .arrow-icon {
+            width: 12px;
+            height: 12px;
+        }
        
         #experiencia .carousel-caption {
              text-align: left;
@@ -2445,7 +2467,7 @@
         }
 
         .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
-            font-size: 15px;
+            font-size: 13px;
         }
         .return-room-footer {
             margin-left: 
