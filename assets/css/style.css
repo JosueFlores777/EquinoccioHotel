@@ -1809,8 +1809,7 @@
             margin-top: 175px;
         }
         .grid-card:nth-child(1), .grid-card:nth-child(2){
-            width: 15vw;
-           
+            width: 15vw;      
         }
         .grid-card:nth-child(3) {
             width: 22vw;
@@ -1886,7 +1885,6 @@
             display: none;
         }
 
-
         #Gastronomia #carouselExampleIndicators1 {
             display: block;
         }
@@ -1919,21 +1917,15 @@
         }
 
         #Galeria #contact-details {
-
             margin-bottom: -350px;
-
         }
 
         #Galeria #contact-details h4 {
-
             margin-left: -50px;
-
         }
 
         #Galeria #contact-details p {
-
             margin-left: -70px;
-
         }
 
         .contenedor-gatronomia {
@@ -1948,7 +1940,6 @@
 
         #fondo-cotacto {
             height: 420px;
-
         }
 
         #contact-details .map {
@@ -1978,18 +1969,15 @@
         }
 
         #room-details .map {
-
             margin-left: -35px;
             width: 550px;
             height: 600px;
             margin-bottom: -35px;
         }
 
-
         #gastramonia-comida {
             margin-top: 350px;
         }
-
         /**/
         .fe-box-gastronomia {
             width: 190px;
