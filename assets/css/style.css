@@ -2189,7 +2189,7 @@
         }
 
         #GaleriaHome .carousel-item img {
-            width: 280px;
+            width: 310px;
             margin: auto;
         }
 
@@ -2380,7 +2380,7 @@
         }
         #room-details .map {
             margin-left: -65px;
-            width: 430px;
+            width: 411px;
             height: 600px;
             margin-bottom: 45px;
         }
@@ -2424,6 +2424,11 @@
 
         #room-details h1{
             margin-left: -18px;
+        }
+
+        #room-details {
+    
+            margin-bottom: -155px;
         }
 
         /*detalles habitacion*/
