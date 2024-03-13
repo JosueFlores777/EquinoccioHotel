@@ -195,7 +195,10 @@
     }
 
     #GaleriaHome #contact-details .map .col p{
+        font-weight: 400;
+        font-family: "Manrope", sans-serif;
         font-size: 18px;
+        color: #4C4D58;
     }
 
     /* Room */
@@ -345,6 +348,8 @@
         margin-bottom: 50px;
         padding: 25px;
     }
+
+
 
     #GaleriaHome #contact-details {
 
@@ -608,6 +613,8 @@
         margin-bottom: 150px;
         padding: 25px;
     }
+
+    
 
     .grid-card-food:nth-child(1) {
         width: 28vw;
@@ -1188,6 +1195,8 @@
         border-radius: 4px;
         margin: 56px;
     }
+
+   
 
     #gastramonia-Equina {
         margin-top: -125px;
@@ -2122,7 +2131,20 @@
         .card-habitacion2{
             display: block;
         }
-    }
+
+        #GaleriaHome #contact-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 45px;
+            margin-left: -35px;
+            margin-bottom: 55px;
+        }
+
+        .fe-box-gastronomia {
+            margin-top: -25px;
+            width: 100%;
+             margin-left: -25px
+        }    }
 
 
     @media (max-width: 633px){
@@ -2136,6 +2158,31 @@
 
     
     @media (max-width: 523px){
+        #GaleriaHome #contact-details {
+            display: flex;
+            justify-content: space-between;
+            padding: -100px 45px;
+            margin-left: -35px;
+            margin-bottom: 55px;
+        }
+        #header {
+            padding: 15px 20px;
+        }
+        .textFondo{
+            width: 130%;
+        }
+
+        .details .gastronomia-title {
+            margin-top: -75px;
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        #fondo-gastranomia .fondo-title-gastranomia{
+            width: 130%; 
+            margin-left: -60px;
+        }
+
         .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
             font-size: 15px;
         }
@@ -2150,9 +2197,29 @@
             height: 500px;
             margin-bottom: 45px;
         }
+
+        .margenarriba{
+            margin-top: 1225px;
+        }
     }
 
     @media (max-width: 478px) {
+        #GaleriaHome #contact-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 45px;
+            margin-left: 35px;
+            margin-bottom: 55px;
+        }
+        .textFondo{
+            width: 140%;
+        }
+
+        .details .gastronomia-title {
+            margin-top: -75px;
+            font-size: 28px;
+            line-height: 40px;
+        }
         .arrow-icon {
             width: 12px;
             height: 12px;
@@ -2187,11 +2254,14 @@
             margin-top: 580px;
             margin-left: 65px;
         }
+
         .fe-box-gastronomia {
-            margin-top: -5px;
-            width: 290px;
+            margin-top: -29px;
+            width: 100%;
             margin-left: -45px;
         }
+
+
 
         #GaleriaHome #carouselExampleIndicators {
             margin-top: -410px;
@@ -2434,7 +2504,7 @@
         }
         #GaleriaHome #contact-details .details h4 {
             margin-left: -73px;
-            font-size: 23px;
+            font-size: 26px;
             font-weight: 400;
             padding-bottom: 15px;
         }
@@ -2476,6 +2546,12 @@
         }
 
         /*Gatronomia*/
+        #fondo-gastranomia .fondo-title-gastranomia{
+          
+            width: 140%; 
+            margin-left: -50px;
+        }
+
         #fondo-gastranomia1 {
             height: 40vh;
             width: 100%;
@@ -2506,6 +2582,8 @@
             font-size: 26px;
             line-height: 31px;
         }
+
+       
 
         #header-color {
             padding: 15px 15px;
@@ -2557,6 +2635,13 @@
 
         #GaleriaHome #carouselExampleIndicators {
             margin-top: -340px;
+        }
+      
+
+        .fe-box-gastronomia {
+            margin-top: -29px;
+            width: 100%;
+            margin-left: -45px;
         }
     }
 

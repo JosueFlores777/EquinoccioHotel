@@ -117,7 +117,7 @@
     </section>
 
     <section id="Galeria">
-      <section id="contact-details" style="margin-bottom: -480px">
+      <section id="contact-details" style="margin-bottom: -440px">
         <div class="details">
           <h2 class="gastronomia-title">
             Redefiniendo el cocepto de lujo, es el punto de partida de un viaje
@@ -151,7 +151,7 @@
         <p class="text-left textgastronomia">7:00 am – 10:00 am (diario)</p>
       </div>
       <!--Segundo-->
-      <div class="fe-box-gastronomia">
+      <div class="fe-box-gastronomia margetopGatro">
         <p class="text-left">
           <span class="material-symbols-outlined"> restaurant </span>
         </p>
@@ -261,10 +261,9 @@
         function descargarMenu() {
           var pdfUrl = "../assets/archivo/menu_principal.pdf";
 
-          // Crea un elemento <a> con el atributo 'download' y simula un clic para iniciar la descarga
           var link = document.createElement("a");
           link.href = pdfUrl;
-          link.download = "menu_completo.pdf";
+          link.download = "menu_principal.pdf";
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);

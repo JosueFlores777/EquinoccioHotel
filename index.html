@@ -65,7 +65,7 @@
         </ul>
 
         <li class="reserve-btn">
-          <button>
+          <button id="reservarButtonRoom1">
             <i class="material-symbols-outlined"> calendar_month </i> Reservar
             Ahora
           </button>
@@ -84,7 +84,7 @@
           cuerpo, ofreciéndote momentos inolvidables en un ambiente sostenible y
           acogedor.
         </p>
-        <button class="titlemain titlePmain">
+        <button class="titlemain titlePmain" id="reservarButtonRoom2">
           <i class="material-symbols-outlined"> calendar_month </i> Reservar
           Ahora
         </button>
@@ -275,7 +275,7 @@
     <!--Gatronomia-->
     <section id="Gastronomia" style="margin-bottom: -50px">      
       <h5 style="margin-top: 35px">Gastronomía</h5>
-      <h1 >Lorem ipsum is a placeholder text </h1>
+      <h1 >Cocina Sostenible</h1>
     </section>
     <section id="Gastronomia">
 
@@ -338,7 +338,7 @@
     
     <section id="Gastronomia" style="margin-bottom: -50px; background: #F2FBFA;">      
       <h5 style="margin-top: 35px">Experiencias</h5>
-      <h1 >Lorem ipsum is a placeholder text </h1>
+      <h1 >Naturaleza y Emoción </h1>
     </section>
 
     <section id="experiencia">
@@ -388,12 +388,45 @@
     
     <section id="fondoFinal">
       <div class="fondoFinal">
-        <h1>Lorem ipsum is a placeholder text </h1>
+        <h1>Descubre la serenidad en Equinoccio Hotel: Comienza tu viaje hacia el equilibrio </h1>
         <p></p>
-        <button>
+        <button id="reservarButtonRoom3">
           <i class="material-symbols-outlined"> calendar_month </i> Reservar
           Ahora
         </button>
+
+
+        <script>
+  document.addEventListener("DOMContentLoaded", function() {
+
+    var reservarButton1 = document.getElementById("reservarButtonRoom1");
+
+    function redirectToPage1() {
+        var url1 = "./views/room.html";
+        window.location.href = url1;
+    }
+    reservarButton1.addEventListener("click", redirectToPage1);
+
+    // Segunda redirección
+    var reservarButton2 = document.getElementById("reservarButtonRoom2");
+
+    function redirectToPage2() {
+        var url2 = "./views/room.html";
+        window.location.href = url2;
+    }
+
+    reservarButton2.addEventListener("click", redirectToPage2);
+
+    var reservarButton3 = document.getElementById("reservarButtonRoom3");
+
+function redirectToPage3() {
+    var url3 = "./views/room.html";
+    window.location.href = url3;
+}
+
+reservarButton3.addEventListener("click", redirectToPage3);
+});
+        </script>
       </div>
     </section>
   </div>
