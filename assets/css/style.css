@@ -1854,6 +1854,7 @@
     }
 
     @media (max-width: 768px) {
+
         #Gastronomia h1{
             font-size: 44px;
            text-align: center;
@@ -2015,9 +2016,22 @@
             margin-top: -390px;
         }
 
+        #experiencia .carousel-item img {
+            width: 750px;
+            margin: auto;
+        }
+
+        #experiencia .carousel-caption {
+         text-align: left;
+        }
+
     }
 
     @media (max-width: 668px) {
+        #experiencia .carousel-item img {
+            width: 650px;
+            margin: auto;
+        }
         #fondo-room h1 {
             font-size: 60px;
         }
@@ -2112,17 +2126,26 @@
     }
 
     @media (max-width: 478px) {
+
+       
+        #experiencia .carousel-caption {
+             text-align: left;
+        }
+        #experiencia .carousel-control-next,#experiencia .carousel-control-prev {
+            top: -100px;
+        }
     
         .carousel-caption{
-            width: 48%;
+            width: 476px;
         }
 
         .carousel-caption h3{
-            font-size: 23px;
+            font-size: 18px;
             width: 80%;
         }
 
         .carousel-caption p{
+            font-size: 12px;
             width: 80%;
         }
 
@@ -2158,11 +2181,6 @@
     
             height: 395px;
             overflow: hidden;
-        }
-
-        #experiencia #carouselExampleControls .carousel-item img {
-            width: 450px;
-            margin: auto;
         }
 
         #experiencia #carouselExampleControls .carousel-item img {
