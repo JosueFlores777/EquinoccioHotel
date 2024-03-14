@@ -2188,6 +2188,7 @@
 .container{
     width: 70%;
     padding: 10px 40px;
+    overflow-x: auto;
   }
   .container .swiper-container{
     width: 90%;
