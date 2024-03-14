@@ -2269,7 +2269,26 @@
         }
 
         /*carru*/
+        #Room .container {
+            display: block;
+        }
 
+        .textRoom2{
+            width: 484px;
+            height: 48px;
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #4C4D58;
+        }
+
+        .rowhabitacion p{
+            font-size: 16px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            color: #4C4D58;
+        }
     }
 
 
@@ -2280,6 +2299,8 @@
             height: 500px;
             margin-bottom: 45px;
         }
+
+
     }
 
 
@@ -2732,7 +2753,6 @@
         }
 
         #room-details {
-
             margin-bottom: -155px;
         }
 
@@ -2789,6 +2809,17 @@
             display: block;
             margin-bottom: 150px;
         }
+
+        .textRoom2{
+            width: 364px;
+            height: 48px;
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #4C4D58;
+        }
+
 
     }
 
@@ -2917,6 +2948,24 @@
         #room-details .container .margenDelux{
             margin-top: 55px;
         }
+
+        .textRoom2{
+            width: 304px;
+            height: 48px;
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #4C4D58;
+        }
+
+        .rowhabitacion p {
+            font-size: 13px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            color: #4C4D58;
+        }
+
     }
 
     @media screen and (max-width: 414px) {
