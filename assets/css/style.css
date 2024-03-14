@@ -264,7 +264,7 @@
         font-size: 12px;
         padding: 3px;
     }
-
+ 
     #Room h1 {
         color: #246161;
         font-weight: 400;
@@ -1700,7 +1700,7 @@
         }
 
         #contact-details .details {
-            width: 100%;
+            width: 110%;
             margin-bottom: 30px;
         }
 
@@ -2141,11 +2141,11 @@
         #GaleriaHome #contact-details .map p {
             font-size: 18px;
             margin-left: -45px;
-            width: 350px;
+            width: 220%;
         }
 
         #GaleriaHome #carouselExampleIndicators {
-            margin-top: -200px;
+            margin-top: -260px;
         }
 
         .card-habitacion{
@@ -2153,6 +2153,12 @@
         }
         .card-habitacion2{
             display: block;
+        }
+        .card-habitacion2 .card-body p {
+            font-family: "Manrope", sans-serif;
+            color: #4C4D58;
+            margin-left: 6px;
+            font-size: 14px;
         }
 
         #GaleriaHome #contact-details {
@@ -2181,6 +2187,15 @@
 
     
     @media (max-width: 523px){
+        #fondoFinal h1 {
+            width: 130%;
+            font-size: 28px;
+            line-height: 33px;
+            font-weight: 400;
+            margin-bottom: 25px;
+            margin-left: -25px;
+        }
+
         #GaleriaHome #contact-details {
             display: flex;
             justify-content: space-between;
@@ -2224,6 +2239,8 @@
         .margenarriba{
             margin-top: 1225px;
         }
+
+     
     }
 
     @media (max-width: 478px) {
@@ -2294,7 +2311,7 @@
 
         #fondo-gastranomia .fondo-title-gastranomia {
 
-            font-size: 28px;
+            font-size: 34px;
             line-height: 38px;
         }
 
@@ -2389,6 +2406,7 @@
         }
 
         #GaleriaHome #contact-details .map .col p{
+           
             font-size: 16px;
             line-height: 24px;
         }
@@ -2682,6 +2700,23 @@
             width: 100%;
             margin-left: -45px;
         }
+
+        #GaleriaHome #contact-details .map .col p{
+            width: 360%;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .text-TituledetallesIndividual {
+            width: 110%;
+            font-size: 25px;
+            margin-bottom: 28px;
+            line-height: 30px;
+        }
+        .text-detallesIndividual {
+            width: 110%;
+            font-size: 15px;
+            font-weight: 400;
+        }
     }
 
     @media screen and (max-width: 414px){
@@ -2689,6 +2724,11 @@
             margin-left: -85px;
             margin-bottom: 175px;
 
+        }
+        #GaleriaHome #contact-details .map .col p{
+            width: 370%;
+            font-size: 16px;
+            line-height: 24px;
         }
         
     }
@@ -2703,5 +2743,15 @@
     @media screen and (max-width: 375px){
         #Galeria #contact-details {
             margin-bottom: -250px;
+        }
+
+        #GaleriaHome #contact-details .map .col p{
+            width: 410%;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        #GaleriaHome #carouselExampleIndicators {
+            margin-top: -300px;
         }
     }
