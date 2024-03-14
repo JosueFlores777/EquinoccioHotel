@@ -199,14 +199,15 @@
         margin-bottom: -56vh;
     }
 
-    #fondo .textFondo2{
+    #fondo .textFondo2 {
         text-align: center;
     }
 
     #fondo .textFondo2 button {
         margin: 0 auto;
     }
-    #GaleriaHome #contact-details .map .col p{
+
+    #GaleriaHome #contact-details .map .col p {
         font-weight: 400;
         font-family: "Manrope", sans-serif;
         font-size: 18px;
@@ -264,7 +265,7 @@
         font-size: 12px;
         padding: 3px;
     }
- 
+
     #Room h1 {
         color: #246161;
         font-weight: 400;
@@ -311,7 +312,7 @@
         margin-bottom: 45px;
     }
 
-    #Gastronomia h1{
+    #Gastronomia h1 {
         font-family: "Playfair Display", serif;
         font-size: 40px;
         font-weight: 400;
@@ -326,9 +327,11 @@
         font-weight: 400;
         padding-bottom: 15px;
     }
+
     .swiper-container.mySwiper {
         display: none;
     }
+
     .grid-card-container {
 
         margin-top: -150px;
@@ -630,7 +633,7 @@
         padding: 25px;
     }
 
-    
+
 
     .grid-card-food:nth-child(1) {
         width: 28vw;
@@ -946,6 +949,7 @@
         margin-bottom: 28px;
         line-height: 40px;
     }
+
     /**/
     #room-details {
         display: flex;
@@ -1076,6 +1080,7 @@
         background: #003E52;
         justify-content: center;
     }
+
     /*Habitacion Indivual Detalles*/
 
     .categories .container-fluid {
@@ -1212,7 +1217,7 @@
         margin: 56px;
     }
 
-   
+
 
     #gastramonia-Equina {
         margin-top: -125px;
@@ -1316,10 +1321,12 @@
         margin-top: -50px;
         margin-bottom: 25px;
     }
+
     .arrow-icon {
         width: 20px;
         height: 20px;
     }
+
     .menufooter hr {
         color: #B8B9C1;
     }
@@ -1364,28 +1371,28 @@
         display: none;
     }
 
-    
-    #room-details .buttons .deluxMarginLeft{
+
+    #room-details .buttons .deluxMarginLeft {
         margin-left: 165px;
     }
 
-    #room-details .buttons .ConforMarginLeft{
+    #room-details .buttons .ConforMarginLeft {
         margin-left: 150px;
     }
 
-    #room-details .buttons .insigniaMarginLeft{
+    #room-details .buttons .insigniaMarginLeft {
         margin-left: 158px;
     }
 
-    .card-habitacion2{
+    .card-habitacion2 {
         display: none;
     }
 
     .icono-bootstrap {
-        fill: white; 
+        fill: white;
     }
 
-    .textoGaleria p{
+    .textoGaleria p {
         font-family: "Manrope", sans-serif;
         color: #4C4D58;
         line-height: 26.6px;
@@ -1728,21 +1735,21 @@
             display: none;
         }
 
-  
+
 
     }
 
     @media (max-width: 1400px) {
         #gastramonia-comida {
             margin-top: 90px;
-        
+
         }
 
     }
 
-    @media screen and (max-width: 1300px){
+    @media screen and (max-width: 1300px) {
         .grid-card-container {
-             margin-top: 105px;
+            margin-top: 105px;
         }
     }
 
@@ -1828,7 +1835,7 @@
         }
 
         #Gastronomia {
-       
+
             margin-left: -5px;
         }
     }
@@ -1845,9 +1852,12 @@
             margin: 50px;
             margin-top: 175px;
         }
-        .grid-card:nth-child(1), .grid-card:nth-child(2){
-            width: 15vw;      
+
+        .grid-card:nth-child(1),
+        .grid-card:nth-child(2) {
+            width: 15vw;
         }
+
         .grid-card:nth-child(3) {
             width: 22vw;
             height: auto;
@@ -1891,12 +1901,12 @@
 
     @media (max-width: 768px) {
 
-        #Gastronomia h1{
+        #Gastronomia h1 {
             font-size: 44px;
-           text-align: center;
-           line-height: 46px;
-           font-weight: 400;
-       }
+            text-align: center;
+            line-height: 46px;
+            font-weight: 400;
+        }
 
         #fondo-room h1 {
             font-size: 70px;
@@ -2016,6 +2026,7 @@
         #gastramonia-comida {
             margin-top: 350px;
         }
+
         /**/
         .fe-box-gastronomia {
             width: 190px;
@@ -2048,29 +2059,33 @@
         }
 
         #experiencia .carousel-caption {
-         text-align: left;
+            text-align: left;
         }
 
     }
 
     @media (max-width: 668px) {
 
-        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+        .menufooter .return-room-footer2 a,
+        .menufooter .return-room-footer a {
             font-size: 17px;
         }
-        .arrow-icon{
+
+        .arrow-icon {
             width: 17px;
             height: 17px;
         }
+
         #experiencia .carousel-item img {
             width: 650px;
             margin: auto;
         }
+
         #fondo-room h1 {
             font-size: 60px;
         }
 
-        #room-details .buttons button:hover  {
+        #room-details .buttons button:hover {
             margin-top: 40px;
             width: 180px;
         }
@@ -2103,6 +2118,7 @@
         #fondo h1 {
             margin-top: -225px;
         }
+
         /**/
 
         #GaleriaHome .carousel-item img {
@@ -2118,7 +2134,7 @@
         }
 
         #room-details .buttons {
-  
+
             margin-top: 55px;
             margin-left: -250px;
         }
@@ -2129,17 +2145,18 @@
 
         }
 
-        #room-details .buttons .deluxMarginLeft{
+        #room-details .buttons .deluxMarginLeft {
             margin-left: 150px;
         }
 
-        #room-details .buttons .ConforMarginLeft{
+        #room-details .buttons .ConforMarginLeft {
             margin-left: 135px;
         }
 
-        #room-details .buttons .insigniaMarginLeft{
+        #room-details .buttons .insigniaMarginLeft {
             margin-left: 143px;
         }
+
         #GaleriaHome #contact-details .map p {
             font-size: 18px;
             margin-left: -45px;
@@ -2150,12 +2167,14 @@
             margin-top: -260px;
         }
 
-        .card-habitacion{
+        .card-habitacion {
             display: none;
         }
-        .card-habitacion2{
+
+        .card-habitacion2 {
             display: block;
         }
+
         .card-habitacion2 .card-body p {
             font-family: "Manrope", sans-serif;
             color: #4C4D58;
@@ -2174,63 +2193,75 @@
         .fe-box-gastronomia {
             margin-top: -25px;
             width: 100%;
-             margin-left: -25px
-        }   
-        
-        #Room .fe-box{display: none;}
-        #Room .container .fe-box{display: block;}
-        
+            margin-left: -25px
+        }
+
+        #Room .fe-box {
+            display: none;
+        }
+
+        #Room .container .fe-box {
+            display: block;
+        }
+
         /*carrucel*/
         .swiper-container.mySwiper {
             display: block;
         }
-        
-.container{
-    width: 70%;
-    padding: 10px 40px;
-    overflow-x: auto;
-  }
-  .container .swiper-container{
-    width: 90%;
-    height: 100%;
-  }
-  .container .swiper-slide {
-    position: relative;
-    text-align: center;
-    background: #fff;
-    
-    text-align: start;
-    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
-   
-  }
 
-  .contendorCard{
-    padding: 25px;
-  }
-  .container .swiper-slide img{
-     display: block;
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-  
-  }
-  .container .swiper-slide .card-description{
-      padding:1rem 1rem;
-  }
-  .container .swiper-slide .card-title,.container .swiper-slide .card-text{
-     margin-bottom: .5rem;
-  }
-  .container .swiper-slide .card-link{
-     text-align: center;
-    
-  }
+        .container {
+            width: 70%;
+            padding: 10px 80px;
+
+            overflow-x: auto;
+        }
+
+        .container .swiper-container {
+            width: auto;
+            height: 100%;
+        }
+
+        .container .swiper-slide {
+            position: relative;
+            text-align: center;
+            background: #fff;
+            text-align: start;
+            box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+
+        }
+
+        .contendorCard {
+            padding: 25px;
+        }
+
+        .container .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+
+        }
+
+        .container .swiper-slide .card-description {
+            padding: 1rem 1rem;
+        }
+
+        .container .swiper-slide .card-title,
+        .container .swiper-slide .card-text {
+            margin-bottom: .5rem;
+        }
+
+        .container .swiper-slide .card-link {
+            text-align: center;
+
+        }
 
         /*carru*/
 
     }
 
 
-    @media (max-width: 633px){
+    @media (max-width: 633px) {
         #room-details .map {
             margin-left: -95px;
             width: 140%;
@@ -2239,8 +2270,8 @@
         }
     }
 
-    
-    @media (max-width: 523px){
+
+    @media (max-width: 523px) {
         #fondoFinal h1 {
             width: 130%;
             font-size: 28px;
@@ -2257,10 +2288,12 @@
             margin-left: -35px;
             margin-bottom: 55px;
         }
+
         #header {
             padding: 15px 20px;
         }
-        .textFondo{
+
+        .textFondo {
             width: 130%;
         }
 
@@ -2270,15 +2303,17 @@
             line-height: 40px;
         }
 
-        #fondo-gastranomia .fondo-title-gastranomia{
-            width: 130%; 
+        #fondo-gastranomia .fondo-title-gastranomia {
+            width: 130%;
             margin-left: -60px;
         }
 
-        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+        .menufooter .return-room-footer2 a,
+        .menufooter .return-room-footer a {
             font-size: 15px;
         }
-        .arrow-icon{
+
+        .arrow-icon {
             width: 15px;
             height: 15px;
         }
@@ -2290,11 +2325,11 @@
             margin-bottom: 45px;
         }
 
-        .margenarriba{
+        .margenarriba {
             margin-top: 1225px;
         }
 
-     
+
     }
 
     @media (max-width: 478px) {
@@ -2305,39 +2340,45 @@
             margin-left: 35px;
             margin-bottom: 55px;
         }
-        .textFondo{
+
+        .textFondo {
             width: 140%;
         }
-        .margeno{
+
+        .margeno {
             margin-left: -50px;
         }
+
         .details .gastronomia-title {
             margin-top: -75px;
             font-size: 28px;
             line-height: 40px;
         }
+
         .arrow-icon {
             width: 12px;
             height: 12px;
         }
-       
+
         #experiencia .carousel-caption {
-             text-align: left;
+            text-align: left;
         }
-        #experiencia .carousel-control-next,#experiencia .carousel-control-prev {
+
+        #experiencia .carousel-control-next,
+        #experiencia .carousel-control-prev {
             top: -100px;
         }
-    
-        .carousel-caption{
+
+        .carousel-caption {
             width: 476px;
         }
 
-        .carousel-caption h3{
+        .carousel-caption h3 {
             font-size: 18px;
             width: 80%;
         }
 
-        .carousel-caption p{
+        .carousel-caption p {
             font-size: 12px;
             width: 80%;
         }
@@ -2346,6 +2387,7 @@
             width: 80%;
             margin: auto;
         }
+
         #gastramonia-comida {
             margin-top: 580px;
             margin-left: 65px;
@@ -2373,8 +2415,9 @@
             width: 350px;
             margin: auto;
         }
+
         #carouselExampleControls {
-    
+
             height: 395px;
             overflow: hidden;
         }
@@ -2404,6 +2447,7 @@
             width: 85%;
             margin: auto;
         }
+
         #Galeria #contact-details .map {
             margin-bottom: -450px;
         }
@@ -2443,8 +2487,8 @@
             font-size: 45px;
         }
 
-       #Gastronomia h1{
-             font-size: 36px;
+        #Gastronomia h1 {
+            font-size: 36px;
             text-align: center;
             line-height: 35px;
             font-weight: 400;
@@ -2459,8 +2503,8 @@
 
         }
 
-        #GaleriaHome #contact-details .map .col p{
-           
+        #GaleriaHome #contact-details .map .col p {
+
             font-size: 16px;
             line-height: 24px;
         }
@@ -2517,12 +2561,14 @@
             width: 308px;
             height: 350px;
         }
-/*Habitacionn*/
+
+        /*Habitacionn*/
 
         .fondo-room {
             margin-top: 125px;
             width: 350px;
         }
+
         #fondo-room h1 {
             color: #ffffff;
             font-size: 35px;
@@ -2557,7 +2603,7 @@
         }
 
         #room-details .buttons {
-  
+
             margin-top: 55px;
             margin-left: -150px;
         }
@@ -2574,6 +2620,7 @@
             text-align: left;
 
         }
+
         #room-details .map {
             margin-left: -65px;
             width: 130%;
@@ -2589,16 +2636,16 @@
             margin-top: -25px;
             margin-bottom: -40px;
         }
-        
-        #room-details .buttons .deluxMarginLeft{
+
+        #room-details .buttons .deluxMarginLeft {
             margin-left: 55px;
         }
 
-        #room-details .buttons .ConforMarginLeft{
+        #room-details .buttons .ConforMarginLeft {
             margin-left: 40px;
         }
 
-        #room-details .buttons .insigniaMarginLeft{
+        #room-details .buttons .insigniaMarginLeft {
             margin-left: 42px;
         }
 
@@ -2607,6 +2654,7 @@
             margin-left: -125px;
             width: 350px;
         }
+
         #GaleriaHome #contact-details .details h4 {
             margin-left: -73px;
             font-size: 26px;
@@ -2618,12 +2666,12 @@
             margin-left: 5px;
         }
 
-        #room-details h1{
+        #room-details h1 {
             margin-left: -18px;
         }
 
         #room-details {
-    
+
             margin-bottom: -155px;
         }
 
@@ -2634,26 +2682,30 @@
             margin-bottom: 25px;
             width: 96%;
         }
+
         .menufooter hr {
             color: #B8B9C1;
             width: auto;
         }
-        .menufooter .return-room-footer2 a{
+
+        .menufooter .return-room-footer2 a {
             margin-right: 20px;
         }
 
-        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+        .menufooter .return-room-footer2 a,
+        .menufooter .return-room-footer a {
             font-size: 13px;
         }
+
         .return-room-footer {
-            margin-left: 
-            15px;
+            margin-left:
+                15px;
         }
 
         /*Gatronomia*/
-        #fondo-gastranomia .fondo-title-gastranomia{
-          
-            width: 140%; 
+        #fondo-gastranomia .fondo-title-gastranomia {
+
+            width: 140%;
             margin-left: -50px;
         }
 
@@ -2677,11 +2729,13 @@
         #Galeria #contact-details {
             margin-bottom: -300px;
         }
+
         #carouselExampleIndicators1 {
             width: 100%;
             margin: auto;
         }
-        #Gastronomia h1{
+
+        #Gastronomia h1 {
             font-size: 28px;
             line-height: 35px;
             font-weight: 400;
@@ -2692,10 +2746,11 @@
             line-height: 31px;
         }
 
-       
+
         #Galeria #contact-details .map {
             margin-bottom: -280px;
         }
+
         #header-color {
             padding: 15px 15px;
 
@@ -2714,7 +2769,7 @@
         }
 
         #GaleriaHome #contact-details .details h4 {
-            margin-left: -75px; 
+            margin-left: -75px;
             font-size: 29px;
             font-weight: 400;
             padding-bottom: 15px;
@@ -2737,9 +2792,12 @@
             height: 560px;
             margin-bottom: 45px;
         }
-        .menufooter .return-room-footer2 a, .menufooter .return-room-footer a {
+
+        .menufooter .return-room-footer2 a,
+        .menufooter .return-room-footer a {
             font-size: 11px;
         }
+
         .return-room-footer {
             margin-left: 15px;
         }
@@ -2747,7 +2805,7 @@
         #GaleriaHome #carouselExampleIndicators {
             margin-top: -340px;
         }
-      
+
 
         .fe-box-gastronomia {
             margin-top: -29px;
@@ -2755,17 +2813,19 @@
             margin-left: -45px;
         }
 
-        #GaleriaHome #contact-details .map .col p{
+        #GaleriaHome #contact-details .map .col p {
             width: 360%;
             font-size: 16px;
             line-height: 24px;
         }
+
         .text-TituledetallesIndividual {
             width: 110%;
             font-size: 25px;
             margin-bottom: 28px;
             line-height: 30px;
         }
+
         .text-detallesIndividual {
             width: 110%;
             font-size: 15px;
@@ -2773,33 +2833,34 @@
         }
     }
 
-    @media screen and (max-width: 414px){
-        #room-details .map {          
+    @media screen and (max-width: 414px) {
+        #room-details .map {
             margin-left: -85px;
             margin-bottom: 175px;
 
         }
-        #GaleriaHome #contact-details .map .col p{
+
+        #GaleriaHome #contact-details .map .col p {
             width: 370%;
             font-size: 16px;
             line-height: 24px;
         }
-        
+
     }
 
     @media screen and (max-width: 425px) and (min-width: 416px) {
         #room-details .map {
             margin-left: -75px;
         }
-   
+
     }
 
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 375px) {
         #Galeria #contact-details {
             margin-bottom: -250px;
         }
 
-        #GaleriaHome #contact-details .map .col p{
+        #GaleriaHome #contact-details .map .col p {
             width: 410%;
             font-size: 16px;
             line-height: 24px;
