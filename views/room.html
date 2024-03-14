@@ -19,7 +19,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
@@ -180,6 +180,75 @@
       </div>
       
     </div>
+
+
+    <div class="container">
+
+      <div class="swiper-container mySwiper">
+        <!--
+         <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+       -->
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+
+            <img src="../assets/img/Habitaciones/Deluxe/hotel-equinoccio-habitacion-deluxe-vista-interior.webp" />
+            <div class="contendorCard">
+              <h5 class="card-title">Habitación Deluxe</h5>
+              <p class="card-text">Cuenta con amplios espacios minimalistas, se ubica en la parte superior del hotel
+                ofreciendo una hermosa vista panorámica de todo el lago y el paisaje que lo rodea.</p>
+             
+                <a href="./rooms/Delux.html" class="btn margenDelux">
+                  Ver Habitación
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z">
+                    </path>
+                  </svg>
+                </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+
+            <img src="../assets/img/Habitaciones/Comfort/hotel-equinoccio-habitacion-comfort-vista-interior.webp" />
+            <div class="contendorCard">
+              <h5 class="card-title">Habitación Comfort</h5>
+              <p class="card-text">Habitación cómoda y acogedora que brinda una experiencia más cercana a la naturaleza y al
+                lago. Perfecta para parejas y amigos que prefieren disfrutar de actividades al aire libre y amenidades del
+                hotel sobre los confines de su habitación.</p>
+          
+              <a href="./rooms/Comfort.html" class="btn">
+                Ver Habitación
+                <span class="material-symbols-outlined"> north_east </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="../assets/img/Habitaciones/Insignia/itacion-insignia-vista-completa.webp" />
+
+            <div class="contendorCard">
+              <h5 class="card-title">Habitación Insignia</h5>
+              <p class="card-text">Ubicada en el edificio anterior con vista al jardín representa la esencia de nuestro
+                hotel y redefine el sentido tradicional de lujo. Los colores neutros marcan la pauta para un lenguaje de
+                diseño sobresaliente pero sutil que se manifiesta orgánicamente en sus amplios espacios.</p>
+        
+              <a href="../views/rooms/Insignia.html" class="btn">
+                Ver Habitación
+                <span class="material-symbols-outlined"> north_east </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
   </section>
 
 
@@ -276,6 +345,8 @@ function mostrarHabitacion(tipo) {
 });
 }
 </script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
 </body>
 
 </html>

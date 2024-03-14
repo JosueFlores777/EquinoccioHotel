@@ -1403,6 +1403,10 @@
         margin-bottom: -440px
     }
 
+    .container{
+        display: none;
+    }
+
     @media only screen and (max-width: 1000px) {
 
         #fondo-gastranomia .text-container {
@@ -2062,6 +2066,13 @@
             text-align: left;
         }
 
+        .rowhabitacion {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            margin-right: -15px;
+            margin-left: -5px;
+        }
+
     }
 
     @media (max-width: 668px) {
@@ -2203,7 +2214,9 @@
         #Room .container .fe-box {
             display: block;
         }
-
+        #Room a {
+            width: 100%;
+        }
         /*carrucel*/
         .swiper-container.mySwiper {
             display: block;
@@ -2212,7 +2225,6 @@
         .container {
             width: 70%;
             padding: 10px 80px;
-
             overflow-x: auto;
         }
 
@@ -2231,7 +2243,7 @@
         }
 
         .contendorCard {
-            padding: 25px;
+            padding: 15px;
         }
 
         .container .swiper-slide img {
@@ -2329,6 +2341,55 @@
             margin-top: 1225px;
         }
 
+        #room-details .buttons {
+            display: none;
+        }
+        
+      
+        #room-details .map{
+            display: none;
+        }
+        .contendorCard .card-title{
+            font-family: "Playfair Display", serif;
+            font-size: 26px;
+            font-weight: 400;
+            color: #050505;
+        }
+
+        .contendorCard .card-text{
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #4C4D58;
+        }
+
+        #room-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 45px;
+            margin-left: 1px;
+            margin-bottom: 55px;
+        }
+        .container{
+            display: block;
+        }
+
+       #room-details .container{
+            display: block;
+            margin-bottom: 50px;
+        }
+
+       .container a {
+            width: 100%;
+            color: #003E52;
+            background-color: #C9FFFD;
+            justify-content: center;
+        }
+
+        #room-details .container .margenDelux{
+            margin-top: 55px;
+        }
 
     }
 
@@ -2722,6 +2783,13 @@
             width: 90%;
             margin-left: 5px;
         }
+
+        #room-details .container{
+            margin-top: 25px;
+            display: block;
+            margin-bottom: 150px;
+        }
+
     }
 
     @media screen and (max-width: 425px) {
@@ -2830,6 +2898,24 @@
             width: 110%;
             font-size: 15px;
             font-weight: 400;
+        }
+
+        #room-details .container {
+            display: block;
+            margin-bottom: 100px;
+        }
+
+        #room-details .container {
+            margin-top: 20px;
+            width: 120%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: -25px;
+        }
+
+        #room-details .container .margenDelux{
+            margin-top: 55px;
         }
     }
 
