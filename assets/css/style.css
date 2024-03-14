@@ -1407,6 +1407,10 @@
         display: none;
     }
 
+    #gastramonia-Equina .container{
+        display: block;
+    } 
+
     @media only screen and (max-width: 1000px) {
 
         #fondo-gastranomia .text-container {
@@ -2827,6 +2831,16 @@
             margin-left: -55px;
         }
 
+        #contact-details .details {
+            width: 105%;
+            margin-bottom: 30px;
+        }
+        
+        #Galeria #contact-details .map {
+            width: 105%;
+            margin-bottom: -520px;
+        }
+
     }
 
     @media screen and (max-width: 425px) {
@@ -2853,6 +2867,7 @@
 
 
         #Galeria #contact-details .map {
+            width: 110%;
             margin-bottom: -280px;
         }
 
