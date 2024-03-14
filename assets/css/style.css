@@ -326,7 +326,9 @@
         font-weight: 400;
         padding-bottom: 15px;
     }
-
+    .swiper-container.mySwiper {
+        display: none;
+    }
     .grid-card-container {
 
         margin-top: -150px;
@@ -2173,7 +2175,58 @@
             margin-top: -25px;
             width: 100%;
              margin-left: -25px
-        }    }
+        }   
+        
+        #Room .fe-box{display: none;}
+        #Room .container .fe-box{display: block;}
+        
+        /*carrucel*/
+        .swiper-container.mySwiper {
+            display: block;
+        }
+        
+.container{
+    width: 70%;
+    padding: 10px 40px;
+  }
+  .container .swiper-container{
+    width: 90%;
+    height: 100%;
+  }
+  .container .swiper-slide {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    
+    text-align: start;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+   
+  }
+
+  .contendorCard{
+    padding: 25px;
+  }
+  .container .swiper-slide img{
+     display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  
+  }
+  .container .swiper-slide .card-description{
+      padding:1rem 1rem;
+  }
+  .container .swiper-slide .card-title,.container .swiper-slide .card-text{
+     margin-bottom: .5rem;
+  }
+  .container .swiper-slide .card-link{
+     text-align: center;
+    
+  }
+
+        /*carru*/
+
+    }
 
 
     @media (max-width: 633px){

@@ -110,3 +110,7 @@ $(document).ready(function () {
 
   performAnimation();
 });
+
+
+/**/
+
