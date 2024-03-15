@@ -1403,7 +1403,14 @@
     #room-details .buttons .insigniaMarginLeft {
         margin-left: 158px;
     }
-
+   
+    .detallesHabitacionIndi #contact-details {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 45px;
+        margin-left: 35px;
+        margin-bottom: 55px;
+    }
     .card-habitacion2 {
         display: none;
     }
@@ -1604,6 +1611,9 @@
             border: 1px solid #F2FBFA;
             border-radius: 4px;
             margin: 5px;
+        }
+        .reserve-btn button{
+            padding: 10px 20px;
         }
     }
 
@@ -2265,6 +2275,9 @@
             margin-top: -400px;
         }
 
+
+
+
         .card-habitacion {
             display: none;
         }
@@ -2850,6 +2863,8 @@
         }
 
         /*detalles habitacion*/
+
+     
 
         .menufooter {
             margin-top: -50px;
