@@ -95,6 +95,7 @@
 
     #fondo-gastranomia2 button,
     .map .card-body button,
+    .map .containerdetallesHab1 button,
     #fondo button,
     .reserve-btn button,
     .reserve-btn2 button,
@@ -115,6 +116,7 @@
     #fondo-gastranomia2 button:hover,
     button:hover,
     .map .card-body button:hover,
+    .map .containerdetallesHab1 button:hover ,
     .reserve-btn button:hover,
     #fondo .textFondo button:hover,
     .reserve-btn2 button,
@@ -1415,6 +1417,7 @@
         display: none;
     }
 
+    .containerdetallesHab {display: block;}
     .icono-bootstrap {
         fill: white;
     }
@@ -1439,6 +1442,48 @@
     #gastramonia-Equina .container{
         display: block;
     } 
+
+/*
+*/
+.containerdetallesHab1 .fondoBton {
+    padding: 15px;
+    background: #165954;
+}
+
+.containerdetallesHab1 button{
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.containerdetallesHab {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerdetallesHab{border: 1px solid #91939F}
+.card-body-detalle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 24px; /* Tamaño del ícono */
+}
+
+p {
+    margin-top: 5px; /* Espacio entre el ícono y el texto */
+}
+/*
+*/
+    
     @media screen  and (min-width: 1900px) {
         #fondo-gastranomia .text-container {
               margin-left: 595px;
@@ -2275,15 +2320,17 @@
             margin-top: -400px;
         }
 
-
-
-
-        .card-habitacion {
+        .containerdetallesHab  {
             display: none;
         }
 
         .card-habitacion2 {
             display: block;
+        }
+
+
+        .marinBotomIconoDetale {
+            margin-bottom: -29px;
         }
 
         .card-habitacion2 .card-body p {
