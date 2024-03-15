@@ -851,6 +851,22 @@
         border-radius: 4px;
         margin: 5px;
     }
+    #experiencia .fe-box h6 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        color: #1A4647;
+    }
+
+    #experiencia .fe-box p {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4C4D58;
+    }
+
     #contact-details .map {
         margin-left: 35px;
         width: 55%;
@@ -1921,7 +1937,9 @@ p {
             font-size: 10px;
 
         }
-
+      
+ 
+    
         .textRoom {
             font-size: 14px;
         }
@@ -1988,6 +2006,11 @@ p {
             margin-left: -5px;
         }
 
+      /*  #experiencia .fe-box {
+            width: calc(50% - 20px); /* Calcula el ancho para 2 columnas con margen 
+            margin: 10px;
+        }
+*/
         .rowindex {
             padding-left: 5px;
             display: -webkit-box;
