@@ -1424,7 +1424,12 @@
     #gastramonia-Equina .container{
         display: block;
     } 
- 
+    @media screen  and (min-width: 1900px) {
+        #fondo-gastranomia .text-container {
+              margin-left: 595px;
+          }
+   
+      }
 
   
     @media only screen and (max-width: 1000px) {
@@ -2878,7 +2883,7 @@
         }
 
         .textRoom2{
-            width: 364px;
+            width: 100%;
             height: 48px;
             font-family: "Manrope", sans-serif;
             font-size: 16px;
@@ -3046,7 +3051,7 @@
         }
 
         .textRoom2{
-            width: 304px;
+            width: 100%;
             height: 48px;
             font-family: "Manrope", sans-serif;
             font-size: 16px;
@@ -3157,6 +3162,6 @@
         }
         .paddinginicio{
            margin-top: -135px;
-            padding: 75px;
+        padding: 75px;
         } 
     }
