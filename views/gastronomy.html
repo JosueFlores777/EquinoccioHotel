@@ -96,7 +96,7 @@
         </ul>
 
         <li class="reserve-btn">
-          <button>
+          <button id="reservarButtonRoom1">
             <i class="material-symbols-outlined"> calendar_month </i> Reservar
             Ahora
           </button>
@@ -345,5 +345,21 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        function redirectToRoomPage() {
+          var roomNumber = this.dataset.roomNumber;
+          var url = "./room.html";
+          window.location.href = url;
+        }
+        var reservarButtons = document.querySelectorAll(
+          "[id^='reservarButtonRoom']"
+        );
+
+        reservarButtons.forEach(function (button) {
+          button.addEventListener("click", redirectToRoomPage);
+        });
+      });
+    </script>
   </body>
 </html>
