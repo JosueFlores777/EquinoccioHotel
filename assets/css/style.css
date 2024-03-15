@@ -824,6 +824,33 @@
         padding: 10px;
     }
 
+
+    /*experiencia*/
+
+
+    #experiencia {
+        height: auto;
+    margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        text-align: center;
+        background-color: #F2FBFA;
+    }
+
+    #experiencia .fe-box{
+        width: 355px;
+        height: 413px;
+        text-align: center;
+        padding: 25px 15px;
+        background: #ffffff;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
+        border: 1px solid #F2FBFA;
+        border-radius: 4px;
+        margin: 5px;
+    }
     #contact-details .map {
         margin-left: 35px;
         width: 55%;
