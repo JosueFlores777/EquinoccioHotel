@@ -1420,7 +1420,9 @@
     }
 
     #Galeria #contact-details {
-        margin-bottom: -440px
+        margin-bottom: -440px;
+        margin-left: 40px;
+        
     }
 
     .container{
