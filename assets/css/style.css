@@ -2925,6 +2925,17 @@
             line-height: 26px;
         }
 
+        .containera1 {
+            width: 105%;
+            padding-right: 5px;
+            padding-left: -55px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .textGatronomia{
+            margin-bottom: 25px;
+        }
+
     }
 
     @media screen and (max-width: 425px) {
