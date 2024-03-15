@@ -235,7 +235,7 @@
 
     .fe-box {
         width: 375px;
-        height: 523px;
+        height: 483px;
         text-align: center;
         padding: 25px 15px;
         background: #ffffff;
@@ -1876,10 +1876,10 @@ p {
             margin-left: -10px;
         }
 
-        #Room .fe-box {
+       /* #Room .fe-box {
             width: 320px;
         }
-
+*/
         .material-symbols-outlined {
             font-size: 5px;
         }
