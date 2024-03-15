@@ -1450,6 +1450,11 @@
     background: #165954;
 }
 
+.card-habitacion2 .fondoBton {
+    padding: 15px;
+    background: #165954;
+}
+
 .containerdetallesHab1 button{
     width: 80%;
     margin-left: 10%;
@@ -2218,6 +2223,8 @@ p {
     }
 
     @media (max-width: 668px) {
+
+        .containerdetallesHab1 .fondoBton{display: none;}
 
         .menufooter .return-room-footer2 a,
         .menufooter .return-room-footer a {
@@ -3010,6 +3017,13 @@ p {
         }
         .textGatronomia{
             margin-bottom: 25px;
+        }
+
+        .detallesHabitacionIndi #contact-details {
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-bottom: 55px;
         }
 
     }
