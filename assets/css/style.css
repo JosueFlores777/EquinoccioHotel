@@ -150,6 +150,11 @@
         background-repeat: no-repeat;
     }
 
+    .img-fluid1 {
+        max-width: 100%;
+        height: auto;
+    }
+
     #fondo-cotacto {
         background-image: url(../img/Contacto/Equinoccio\ Noviembre-494.webp);
         height: 80vh;
@@ -2924,13 +2929,14 @@
             width: 310%;
             line-height: 26px;
         }
+        #gastramonia-Equina .title-gastronomia-qeuin {
+            font-size: 28px;
+            line-height: 33px;
+        }
 
-        .containera1 {
-            width: 105%;
-            padding-right: 5px;
-            padding-left: -55px;
-            margin-right: auto;
-            margin-left: auto;
+        .img-fluid1 {
+            max-width: 110%;
+            height: auto;
         }
         .textGatronomia{
             margin-bottom: 25px;
@@ -2939,7 +2945,7 @@
     }
 
     @media screen and (max-width: 425px) {
-
+     
         #Galeria #contact-details {
             margin-bottom: -300px;
         }
