@@ -1532,14 +1532,16 @@ p {
 }
 /*
 */
+#experiencia .container {
+display: none;
+}
     
     @media screen  and (min-width: 1900px) {
         #fondo-gastranomia .text-container {
               margin-left: 595px;
           }
  
-      }
-
+    }
   
     @media only screen and (max-width: 1000px) {
         #experiencia .fe-box{
@@ -2309,6 +2311,29 @@ p {
 
         .containerdetallesHab1 .fondoBton{display: none;}
 
+        #experiencia .container {
+            display: block;
+        }
+        #experiencia .fe-box {
+            display: none;
+        }
+
+        #experiencia .container h6 {
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 27px;
+            color: #1A4647;
+        }
+    
+        #experiencia .container p {
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #4C4D58;
+        }
+
         .menufooter .return-room-footer2 a,
         .menufooter .return-room-footer a {
             font-size: 17px;
@@ -2532,7 +2557,6 @@ p {
         }
     }
 
-
     @media (max-width: 633px) {
         #room-details .map {
             margin-left: -95px;
@@ -2742,6 +2766,11 @@ p {
 
         .carousel-item img {
             width: 350px;
+            margin: auto;
+        }
+
+        #Gastronomia .carousel-item img {
+            width: 100;
             margin: auto;
         }
 
