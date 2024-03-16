@@ -1542,6 +1542,7 @@ display: none;
           }
  
     }
+
   
     @media only screen and (max-width: 1000px) {
         #experiencia .fe-box{
@@ -1909,6 +1910,14 @@ display: none;
     }
 
     @media (max-width: 1400px) {
+        .paddinginicio{
+            margin-left: 6%;
+        } 
+
+        .grid-card-container {
+            margin-top: 5%;
+            margin-left: 25px; 
+        }
         #gastramonia-comida {
             margin-top: 90px;
 
@@ -1922,12 +1931,23 @@ display: none;
 
     }
 
+    @media (max-width: 1600px){
+        .grid-card-container {
+            
+            margin-left: 25px; 
+           
+        }
+    }
     @media screen and (max-width: 1300px) {
         .paddinginicio{
             margin: 0;
             padding: 0;
         }
         
+        .grid-card-container {
+            margin-top: 5%;
+            margin-left: 25px; 
+        }
         .grid-card-container {
             margin-top: 105px;
         }
@@ -2017,7 +2037,7 @@ display: none;
             height: 70vh;
             margin: 50px;
             margin-left: 25px;
-            margin-top: 175px;
+            margin-top: 10%;
         }
 
         #Gastronomia {
@@ -2055,6 +2075,16 @@ display: none;
         }
 
        
+    }
+
+    @media(max-width: 1025px){
+        #GaleriaHome #contact-details .details h4 {
+            font-size: 35px;
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
+   
     }
 
     @media(max-width: 999px) {
@@ -2752,8 +2782,6 @@ display: none;
             margin-left: -45px;
         }
 
-
-
         #GaleriaHome #carouselExampleIndicators {
             margin-top: -350px;
         }
@@ -3405,7 +3433,7 @@ display: none;
 
     @media screen  and (min-width: 1500px) {
         .paddinginicio{
-            margin: 35px;
+            margin-left: 6%;
         } 
 
         #fondo-gastranomia .text-container {
