@@ -1530,6 +1530,19 @@
 p {
     margin-top: 5px; /* Espacio entre el ícono y el texto */
 }
+
+.icon-text p{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    color: #4C4D58;
+    font-weight: 400;
+}
+
+.icon-text span{
+    
+    color: #4C4D58;
+    font-weight: 400;
+}
 /*
 */
 #experiencia .container {
