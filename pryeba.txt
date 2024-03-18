@@ -1,0 +1,102 @@
+    <!--Paseo en Lancha-->
+      <div class="fe-box">
+        <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-04.jpg" />
+        <h6 class="text-left">Paseo en Lancha</h6>
+        <p class="text-left textRoom">
+          Una de las actividades más emocionantes en el lago de Coatepeque.
+        </p>
+
+      </div>
+      <!--Paseo por el Cerro Verde-->
+      <div class="fe-box">
+        <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-01.jpg" />
+        <h6 class="text-left">Paseo por el Cerro Verde</h6>
+        <p class="text-left textRoom">
+          El Cerro Verde cuenta con una extensión de 54 manzanas.
+        </p>
+
+      </div>
+      <!--Paseo en Jetski-->
+      <div class="fe-box">
+        <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-03.jpg" />
+        <h6 class="text-left">Paseo en Jetski</h6>
+        <p class="text-left textRoom">
+          Nada es más emocionante que subirse un una moto acuática y recorrer el lago a toda velocidad.
+        </p>
+
+      </div>
+
+      <!--Paseo en Kayak-->
+      <div class="fe-box">
+        <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-02.jpg" />
+        <h6 class="text-left">Paseo en Kayak</h6>
+        <p class="text-left textRoom">
+          El kayak es una manera diferente de divertirte y al mismo tiempo hacer ejercicio.
+        </p>
+
+      </div>
+
+
+      <div class="container">
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+
+            <!--Paseo en Lancha-->  
+            <div class="swiper-slide">
+
+              <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-04.jpg" />
+              <div class="contendorCard">
+                <h6 class="text-left">Paseo en Lancha</h6>
+                <p class="text-left textRoom2" >
+                  Una de las actividades más emocionantes en el lago de Coatepeque.
+                </p>
+           
+              </div>
+            </div>
+
+            <!--Paseo por el Cerro Verde-->
+            <div class="swiper-slide">
+
+              <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-01.jpg" />
+              <div class="contendorCard">
+                <h6 class="text-left">Paseo por el Cerro Verde</h6>
+                <p class="text-left textRoom2">
+                  El Cerro Verde cuenta con una extensión de 54 manzanas.
+                </p>
+            
+              </div>
+            </div>
+
+             <!--Paseo en Jetski-->
+            <div class="swiper-slide">
+              <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-03.jpg" />
+
+              <div class="contendorCard">
+                <h6 class="text-left">Paseo en Jetski</h6>
+                <p class="text-left textRoom2">
+                  Nada es más emocionante que subirse un una moto acuática y recorrer el lago a toda velocidad.
+                </p>
+            
+              </div>
+            </div>
+
+             <!--Paseo en Kayak-->
+             <div class="swiper-slide">
+              <img src="./assets/img/Inicio/Slider - Experiencia/img-seccion-experiencias-02.jpg" />
+
+              <div class="contendorCard">
+                <h6 class="text-left">Paseo en Kayak</h6>
+                <p class="text-left textRoom2">
+                  El kayak es una manera diferente de divertirte y al mismo tiempo hacer ejercicio.
+                </p>
+            
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+      </div>
