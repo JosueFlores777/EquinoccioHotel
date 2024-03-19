@@ -1959,6 +1959,15 @@
             margin-bottom: 5px;
         }
 
+        #Galeria #contact-details {
+            margin-bottom: -440px;
+            margin-left: -10px;
+        }
+
+        #gastramonia-comida {
+            margin-left: -60px;
+        }
+
     }
 
     @media (max-width: 1600px) {
@@ -2124,6 +2133,16 @@
             margin-left: -55px;
         }
 
+        
+        #Galeria #contact-details {
+            margin-bottom: -520px;
+            margin-left: 20px;
+        }
+
+        #gastramonia-comida {
+            margin-left: -60px;
+        }
+
     }
 
     @media(max-width: 1025px) {
@@ -2132,6 +2151,16 @@
             font-family: "Playfair Display", serif;
             font-weight: 400;
             padding-bottom: 15px;
+        }
+
+              
+        #Galeria #contact-details {
+            margin-bottom: -440px;
+            margin-left: -20px;
+        }
+
+        #gastramonia-comida {
+            margin-left: 10px;
         }
 
     }
@@ -2207,6 +2236,9 @@
             color: #070707;
             background: #ffffff;
         }
+
+   
+
     }
 
     @media (max-width: 768px) {
@@ -2639,6 +2671,24 @@
         #GaleriaHome #carouselExampleIndicators {
             width: 90%;
         }
+
+        #Galeria #contact-details {
+            margin-bottom: -440px;
+            margin-left: 20px;
+        }
+
+        #gastramonia-comida {
+            margin-top: 465px;
+            margin-left: 60px;
+        }
+
+        #Galeria .details .gastronomia-title {
+            margin-left: -75px;
+        }
+
+        #Galeria #contact-details p {
+            margin-left: -90px;
+        }
     }
 
     @media (max-width: 633px) {
@@ -2965,7 +3015,7 @@
         }
 
         #Galeria #contact-details p {
-            margin-left: -80px;
+            margin-left: -100px;
             font-size: 19px;
         }
 
@@ -3235,7 +3285,11 @@
         }
 
         .details .gastronomia-title {
-            margin-left: -65px;
+            margin-left: -85px;
+        }
+
+        #Galeria .details .gastronomia-title {
+             margin-left: -85px; 
         }
 
     }
@@ -3420,7 +3474,7 @@
         }
 
         #GaleriaHome #contact-details .map .col p {
-            width: 390%;
+            width: 330%;
             line-height: 26px;
 
         }

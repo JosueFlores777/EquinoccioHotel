@@ -44,3 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", redirectToRoomPage);
   });
 });
+
+document
+  .getElementById("resButtonRoomOut")
+  .addEventListener("click", function () {
+    var link = "https://equinocciohotel.client.innroad.com/";
+    window.open(link, "_blank");
+  });
