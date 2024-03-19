@@ -51,3 +51,10 @@ document
     var link = "https://equinocciohotel.client.innroad.com/";
     window.open(link, "_blank");
   });
+
+document
+  .getElementById("resvarButtonRoomOut")
+  .addEventListener("click", function () {
+    var link = "https://equinocciohotel.client.innroad.com/";
+    window.open(link, "_blank");
+  });
