@@ -3296,7 +3296,9 @@
         }
 
         #fondo button,#fondoFinal button {
+            color: #003E52;
             font-size: 16px;
+            
             font-weight: 400;
         }
 
