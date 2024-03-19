@@ -1939,7 +1939,7 @@
 
     @media (max-width: 1400px) {
         .paddinginicio {
-            margin-left: 6%;
+            margin-left: 5%;
         }
 
         .grid-card-container {
@@ -1965,6 +1965,8 @@
         }
 
         #gastramonia-comida {
+   
+            margin-top: 25px;   
             margin-left: -60px;
         }
 
@@ -1999,6 +2001,7 @@
         }
 
         #gastramonia-comida {
+            margin-top: 25px;   
             margin-left: -25px;
         }
 
