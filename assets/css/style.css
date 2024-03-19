@@ -2829,7 +2829,7 @@
 
         #gastramonia-comida {
             margin-top: 580px;
-            margin-left: 65px;
+            margin-left: 70px;
         }
 
         .fe-box-gastronomia {
@@ -2965,7 +2965,7 @@
         }
 
         #Galeria #contact-details p {
-            margin-left: -65px;
+            margin-left: -80px;
             font-size: 19px;
         }
 
@@ -3234,6 +3234,18 @@
             margin-bottom: 55px;
         }
 
+        .details .gastronomia-title {
+            margin-left: -65px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 428px){
+        #gastramonia-comida {
+        margin-top: 620px;
+        margin-left: 70px;
+        }
     }
 
     @media screen and (max-width: 425px) {
@@ -3426,6 +3438,13 @@
             width: 100%;
         }
 
+
+        #GaleriaHome .carousel-item img {
+            width: 356px;
+            margin: auto;
+        }
+
+   
     }
 
     @media screen and (max-width: 414px) {
@@ -3458,7 +3477,13 @@
             margin-top: 25px;
         }
 
+        #gastramonia-comida {
+            margin-top: 580px;
+            margin-left: 70px;
+            }
+
     }
+
 
     @media screen and (max-width: 425px) and (min-width: 416px) {
         #room-details .map {
@@ -3469,11 +3494,23 @@
             margin-top: 85px;
         }
 
+        
+        #gastramonia-comida {
+            margin-top: 590px;
+            margin-left: 70px;
+        }
+
     }
 
     @media screen and (max-width: 390px) {
         #GaleriaHome #carouselExampleIndicators {
             margin-top: -300px;
+        }
+
+        
+        #gastramonia-comida {
+            margin-top: 540px;
+            margin-left: 70px;
         }
     }
 
