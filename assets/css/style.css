@@ -1837,6 +1837,10 @@
              width: 85%; 
             margin: auto;
         }
+
+        #fondo-gastranomia .text-container {
+            margin-left: 195px;
+        }
     }
 
 
@@ -2081,7 +2085,33 @@
 
     }
 
-    
+    @media(max-width: 1050px){
+
+        #fondo-gastranomia .text-container {
+            margin-left: 195px;
+        }
+
+        #fondo-gastranomia1 {
+            background-image: url(../img/Gastronomia/banner-gastronomia-equinoccio-cafe-postres.jpg);
+             height: 60vh;
+            margin: 60px;
+            background-position: 1px;
+            background-size: cover;
+        }
+
+        .contendor-gastronomia {
+            padding: 25px;
+            width: 45%;
+        }
+
+        #fondo-gastranomia2 {
+            background-image: url(../img/Gastronomia/banner-piscina-hotel-equinoccio.webp);
+            height: 50vh;
+            width: 100%;
+            background-size: cover;
+        }
+    }
+
 
     @media (max-width: 1400px) {
         .paddinginicio {
@@ -3438,9 +3468,6 @@
         }
 
         /*detalles habitacion*/
-
-
-
         .menufooter {
             margin-top: -50px;
             margin-bottom: 25px;
@@ -3563,6 +3590,13 @@
             color: #003E52;
             font-size: 15px;
             font-weight: 400;
+        }
+
+        #fondoFinal {
+            background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Inicio/hotel-equinoccio-vista-hacia-el-muelle-y-lago.webp);
+            height: 50vh;
+            width: 100%;
+   
         }
 
     }
