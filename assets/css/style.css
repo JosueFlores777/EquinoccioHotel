@@ -1763,6 +1763,11 @@
     @media(max-width: 1050px){
 
        
+       
+       #Room .container {
+        display: block; 
+          }
+
         #heade,#header-color  {
             padding: 15px 35px;
         }
@@ -2093,7 +2098,7 @@
 
         #fondo-gastranomia1 {
             background-image: url(../img/Gastronomia/banner-gastronomia-equinoccio-cafe-postres.jpg);
-             height: 60vh;
+             height: 50vh;
             margin: 60px;
             background-position: 1px;
             background-size: cover;
@@ -2912,10 +2917,10 @@
         }
 
         /*carru*/
-        #Room .container {
+     /*   #Room .container {
             display: block;
-        }
-
+        } 2915
+*/
         .textRoom2 {
             width: 484px;
             height: 48px;
@@ -3082,9 +3087,9 @@
             margin-bottom: 55px;
         }
 
-        .container {
+     /*   .container {
             display: block;
-        }
+        }*/
 
         #room-details .container {
             display: block;
@@ -3115,6 +3120,17 @@
             margin-left: 14%;
              display: none;
         }
+
+
+        #fondo-gastranomia1 {
+            background-image: url(../img/Gastronomia/banner-gastronomia-equinoccio-cafe-postres.jpg);
+            height: 50vh;
+            width: 100%;
+            margin: 0;
+            background-size: cover;
+            margin-bottom: 35px;
+        }
+  
 
     }
 
