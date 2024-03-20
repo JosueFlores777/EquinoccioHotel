@@ -2148,6 +2148,15 @@
 
     }
 
+    @media(max-width: 1050px){
+
+       
+        #heade,#header-color  {
+            padding: 15px 35px;
+        }
+    }
+
+
     @media(max-width: 1025px) {
         #GaleriaHome #contact-details .details h4 {
             font-size: 35px;
@@ -3546,7 +3555,6 @@
             }
 
     }
-
 
     @media screen and (max-width: 425px) and (min-width: 416px) {
         #room-details .map {
