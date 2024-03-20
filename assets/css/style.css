@@ -2686,6 +2686,14 @@
              width: 55%;
             margin: auto;
         }
+
+        #fondo-gastranomia1 {
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+            background-position: 1px;
+            margin-bottom: 35px;
+        }
     }
 
     @media (max-width: 668px) {
@@ -2982,6 +2990,14 @@
              width: 75%;
             margin: auto;
         }
+
+        #fondo-gastranomia1 {
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+            background-position: 1px;
+            margin-bottom: 35px;
+        }
     
     }
 
@@ -2993,7 +3009,7 @@
             margin-bottom: 45px;
         }
 
-
+    
     }
 
 
