@@ -1823,6 +1823,20 @@
         #GaleriaHome #carouselExampleIndicators4{
             width: 90%;
         }
+
+        .grid-card-container-food {
+            display: none;
+        }
+
+        #Gastronomia #carouselExampleIndicators1 {
+            display: block;
+        }
+
+        #carouselExampleIndicators1 {
+            display: block;
+             width: 85%; 
+            margin: auto;
+        }
     }
 
 
@@ -2331,6 +2345,10 @@
             grid-auto-rows: 10rem;
             margin-left: -5px;
             margin-right: 0px;
+        }
+
+        .grid-card-container-food {
+            display: none;
         }
 
         #experiencia .fe-box {
