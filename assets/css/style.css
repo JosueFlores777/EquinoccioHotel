@@ -238,8 +238,8 @@
     }
 
     .fe-box {
-        width: 375px;
-        height: 483px;
+        width: 485px;
+        height:auto;
         text-align: center;
         padding: 25px 15px;
         background: #ffffff;
@@ -2169,9 +2169,29 @@
 
     @media (max-width: 1600px) {
         .grid-card-container {
-
             margin-left: 25px;
+        }
+        .fe-box {
+            width: 575px;
+            height: auto;
+        }
+        #Room h6 {
+            color: #18181B;
+            font-weight: 400;
+            font-size: 25px;
+            font-family: "Playfair Display", serif;
+        }
+        .textRoom {
+            max-width: 369px;
+            height: 48px;
+            font-family: "Manrope", sans-serif;
+            color: #4C4D58;
+            font-size: 18px;
+            line-height: 24px;
+        }
 
+        .rowindex span {
+            margin-left: -5px;
         }
     }
 
@@ -2214,16 +2234,47 @@
         .fe-box {
             width: 475px;
             height: 553px;
-            text-align: center;
-            padding: 25px 15px;
-            background: #ffffff;
-            box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
-            border: 1px solid #F2FBFA;
-            border-radius: 4px;
-            margin: 5px;
         }
-    }
 
+        .rowindex span {
+            margin-left: -5px;
+        }
+
+    }
+    @media screen and (max-width: 1800px) {
+        #Room h6 {
+            color: #18181B;
+            font-weight: 400;
+            font-size: 26px;
+            font-family: "Playfair Display", serif;
+        }
+        .textRoom {
+            max-width: 369px;
+            height: 48px;
+            font-family: "Manrope", sans-serif;
+            color: #4C4D58;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .fe-box {
+            width: 602px;
+            height: auto;
+        }
+
+        .material-symbols-outlined {
+            font-family: "Manrope", sans-serif;
+            font-size: 25px !important; 
+            font-weight: 400;
+            color: #4C4D58;
+        }
+        .rowindex p {
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4C4D58;
+        }
+
+    }
     @media (max-width: 1200px) {
         .fe-box-gastronomia {
             /* width: 230px;*/
@@ -2324,15 +2375,15 @@
         }
 
         .fe-box {
-            width: 375px;
-            height: 480px;
+            width: 435px;
+            height:auto;
             text-align: center;
-            padding: 25px 15px;
-            background: #ffffff;
-            box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
-            border: 1px solid #F2FBFA;
             border-radius: 4px;
             margin: 5px;
+        }
+
+        .rowindex span {
+            margin-left: 5px;
         }
 
         .jardin {
@@ -2414,7 +2465,7 @@
         }
 
         #experiencia .fe-box {
-            width: 325px;
+            width: 485px;
             height: auto;
             text-align: center;
             padding: 25px 15px;
@@ -4021,3 +4072,4 @@
         }
 
     }
+
