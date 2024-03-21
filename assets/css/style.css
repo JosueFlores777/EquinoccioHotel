@@ -757,8 +757,8 @@
 
 
     footer {
+     
         width: 100%;
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -769,10 +769,9 @@
         width: 100%;
         text-align: center;
         background: #072C2B;
-        margin-top: 20px;
+        margin-top: 15px;
 
     }
-
 
 
     /*Cotactos*/
