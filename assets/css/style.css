@@ -773,6 +773,9 @@
 
     }
 
+    .logo-img {
+        margin-left: 25px;
+    }
 
     /*Cotactos*/
 
@@ -3662,6 +3665,11 @@
             width: 100%;
    
         }
+
+        .logo-img {
+            margin-left:0;
+        }
+    
 
     }
 
