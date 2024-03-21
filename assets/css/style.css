@@ -2208,6 +2208,18 @@
          
             margin-left: -5px;
         }
+
+        .fe-box {
+            width: 475px;
+            height: 553px;
+            text-align: center;
+            padding: 25px 15px;
+            background: #ffffff;
+            box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
+            border: 1px solid #F2FBFA;
+            border-radius: 4px;
+            margin: 5px;
+        }
     }
 
     @media (max-width: 1200px) {
@@ -3987,6 +3999,18 @@
             width: 28%;
             height: 150px;
 
+        }
+
+        .fe-box {
+            width: 355px;
+            height: 495px;
+            text-align: center;
+            padding: 25px 15px;
+            background: #ffffff;
+            box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.033);
+            border: 1px solid #F2FBFA;
+            border-radius: 4px;
+            margin: 5px;
         }
 
     }
