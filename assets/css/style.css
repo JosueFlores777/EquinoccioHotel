@@ -134,7 +134,7 @@
     }
 
     #fondo {
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Inicio/mujeres-en-terraza-del-hotel-equinoccio-viendo-hacia-el-lago.webp);
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Contacto/hotel-equinoccio-vista-aerea.webp);
         height: 100vh;
         width: 100%;
         background-size: cover;
@@ -159,7 +159,7 @@
 
     #fondo-cotacto {
  
-        background-image: url(../img/Contacto/hotel-equinoccio-vista-aerea.webp);
+        background-image: url(../img/Inicio/mujeres-en-terraza-del-hotel-equinoccio-viendo-hacia-el-lago.webp);
         height: 80vh;
         width: 100%;
 
