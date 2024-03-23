@@ -219,7 +219,7 @@
     }
 
     #GaleriaHome #contact-details .map .col p {
-        width: 90%;
+        width: 96%;
         font-weight: 400;
         font-family: "Manrope", sans-serif;
         font-size: 18px;
@@ -1627,6 +1627,13 @@
         display: none;
     }
 
+    @media only screen and (max-width: 1896px) {
+        #GaleriaHome #contact-details .map .col p {
+            width: 90%;
+
+        }
+
+    }
     @media screen and (min-width: 1900px) {
         #fondo-gastranomia .text-container {
             margin-left: 595px;
@@ -2176,7 +2183,6 @@
         }
     }
 
-
     @media (max-width: 1400px) {
         .paddinginicio {
             margin-left: 5%;
@@ -2214,8 +2220,8 @@
             width: 226px;
             height: 169px;
         }
-    
-       
+
+
 
     }
 
@@ -2245,7 +2251,7 @@
             margin-left: -5px;
         }
 
-    
+
         .fe-box-home {
             width: 296px;
             height: 169px;
@@ -2253,6 +2259,13 @@
             padding: 25px 15px;
             background: #FFFFFF;
         }
+
+
+        #GaleriaHome #contact-details .map .col p {
+            width: 93%;
+
+        }
+
     }
 
     @media screen and (max-width: 1896px) {
@@ -2263,11 +2276,14 @@
 
     }
 
+
+ 
     @media (max-width: 1630px) {
         .fe-box {
             width: 405px;
             height: auto;
         }
+
         .fe-box-home {
             width: 236px;
             height: 169px;
@@ -2279,7 +2295,7 @@
 
     @media screen and (max-width: 1300px) {
         .paddinginicio {
-            margin: 0;
+            margin-left: 3%;
             padding: 0;
         }
 
@@ -2501,12 +2517,44 @@
 
     }
 
+    @media (max-width: 1199px) {
+        .paddinginicio {
+            margin-left: 2%;
+        }
+
+        #GaleriaHome #contact-details .map .col p {
+            margin-left: 25px;
+            width: 97%;
+        }
+
+        #GaleriaHome #contact-details .details h4 {
+            width: 120%;
+        }
+
+    }
+
     @media (max-width: 1100px) {
         .fe-box-home {
             width: 190px;
             height: 169px;
         }
+
+        .paddinginicio {
+            margin-left: 2%;
+        }
+
+        #GaleriaHome #contact-details .map .col p {
+            margin-left: 25px;
+            width: 93.2%;
+        }
+
+        #GaleriaHome #contact-details .details h4 {
+            width: 95%;
+            font-size: 36px;
+        }
     }
+
+
 
     @media(max-width: 1025px) {
         #Galeria #contact-details {
@@ -2517,6 +2565,14 @@
             margin-left: -30px;
         }
 
+    }
+
+
+    @media (max-width: 1000px) {
+        #GaleriaHome #contact-details .map .col p {
+            margin-left: -45px;
+            width: 183%;
+        }
     }
 
     @media(max-width: 999px) {
@@ -2900,6 +2956,15 @@
             background-position: 1px;
             margin-bottom: 35px;
         }
+
+        #GaleriaHome #contact-details .map .col p {
+            width: 195%;
+            line-height: 26px;
+        }
+
+        .paddinginicio {
+            margin-left: -45px;
+        }
     }
 
     @media (max-width: 668px) {
@@ -3205,6 +3270,15 @@
             margin: 0;
             background-position: 1px;
             margin-bottom: 35px;
+        }
+
+        #GaleriaHome #contact-details .map .col p {
+            width: 195%;
+            line-height: 26px;
+        }
+
+        .paddinginicio {
+            margin-left: 0;
         }
 
     }
@@ -3804,8 +3878,17 @@
             margin-bottom: -50px;
         }
 
+        #GaleriaHome #contact-details .details h4 {
+            width: auto;
+            margin-left: -73px;
+            font-size: 26px;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
+
         #GaleriaHome #contact-details .map .col p {
-            width: 310%;
+            margin-left: -125px;
+            width: 290%;
             line-height: 26px;
         }
 
@@ -3855,6 +3938,7 @@
         .logo-img {
             margin-left: 0;
         }
+
         #star {
             margin: 0;
         }
@@ -4225,4 +4309,17 @@
             background: #FFFFFF;
         }
 
+    }
+
+    @media (min-width: 1401px) and (max-width: 1499px) {
+        .paddinginicio {
+            margin-left: 6%;
+        }
+
+        #GaleriaHome #contact-details .details h4 {
+            font-size: 38px;
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            padding-bottom: 15px;
+        }
     }
