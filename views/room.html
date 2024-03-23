@@ -60,7 +60,7 @@
         </ul>
 
         <li class="reserve-btn">
-          <button id="resButtonRoomOut">
+          <button id="reservarButtonRoom">
             <i class="material-symbols-outlined"> calendar_month </i> Reservar
             ahora
           </button>
@@ -373,6 +373,21 @@ function mostrarHabitacion(tipo) {
 });
 }
 </script>
+
+<script >
+  document.addEventListener("DOMContentLoaded", function () {
+    function redirectToRoomPage() {
+      var roomNumber = this.dataset.roomNumber;
+      var url = "https://equinocciohotel.client.innroad.com";
+      window.open(url, "_blank"); // Abre la URL en una nueva pestaña
+    }
+    var reservarButtons = document.querySelectorAll("[id^='reservarButtonRoom']");
+  
+    reservarButtons.forEach(function (button) {
+      button.addEventListener("click", redirectToRoomPage);
+    });
+  });
+    </script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="../assets/js/app.js"></script>
 </body>

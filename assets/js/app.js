@@ -34,10 +34,10 @@ var swiper = new Swiper(".swiper-container", {
 document.addEventListener("DOMContentLoaded", function () {
   function redirectToRoomPage() {
     var roomNumber = this.dataset.roomNumber;
-    var url = "./views/room.html";
-    window.location.href = url;
+ 
+    var url = "https://equinocciohotel.client.innroad.com";
+    window.open(url, "_blank"); // Abre la URL en una nueva pestaña
   }
-
   var reservarButtons = document.querySelectorAll("[id^='reservarButtonRoom']");
 
   reservarButtons.forEach(function (button) {
@@ -45,16 +45,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document
-  .getElementById("resButtonRoomOut")
-  .addEventListener("click", function () {
-    var link = "https://equinocciohotel.client.innroad.com/";
-    window.open(link, "_blank");
-  });
-
-document
-  .getElementById("resvarButtonRoomOut")
-  .addEventListener("click", function () {
-    var link = "https://equinocciohotel.client.innroad.com/";
-    window.open(link, "_blank");
-  });

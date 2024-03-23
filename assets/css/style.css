@@ -120,7 +120,7 @@
     .reserve-btn button:hover,
     #fondo .textFondo button:hover,
     .reserve-btn2 button,
-    #fondoFinal button:hover {
+    #fondoFinal button:hover{
         background-color: #003E52;
         color: rgba(201, 255, 253, 1);
         cursor: pointer;

@@ -59,7 +59,7 @@
       </ul>
 
       <li class="reserve-btn">
-        <button>
+        <button id="reservarButtonRoom3">
           <i class="material-symbols-outlined"> calendar_month </i> Reservar
           ahora
         </button>
@@ -215,7 +215,7 @@
               </div>
             </div>
             <div class="fondoBton">
-              <button class="text-center" id="resButtonRoomOut">
+              <button class="text-center" id="reservarButtonRoom1">
                 <i class="material-symbols-outlined"> calendar_month </i> Reservar
                 Ahora
               </button></div>
@@ -282,7 +282,7 @@
       </div>
       </div>
       <div class="fondoBton">
-        <button class="text-center" id="resvarButtonRoomOut">
+        <button class="text-center" id="reservarButtonRoom2">
           <i class="material-symbols-outlined"> calendar_month </i> Reservar
           Ahora
         </button></div>
@@ -351,7 +351,23 @@
     </div>
   </footer>
   
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+function redirectToRoomPage() {
+var roomNumber = this.dataset.roomNumber;
 
+var url = "https://equinocciohotel.client.innroad.com";
+window.open(url, "_blank"); // Abre la URL en una nueva pestaña
+}
+var reservarButtons = document.querySelectorAll("[id^='reservarButtonRoom']");
+
+reservarButtons.forEach(function (button) {
+button.addEventListener("click", redirectToRoomPage);
+});
+});
+
+
+  </script>
 </body>
 
 </html>
