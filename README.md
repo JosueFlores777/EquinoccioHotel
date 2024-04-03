@@ -1,4 +1,4 @@
-# Project: Responsive Hotel Website for Equinoxx Hotel (SayHello Agency)
+# Project: Responsive Hotel Website for Equinoccio Hotel (SayHello Agency)
 
 This project showcases a responsive website built with HTML, CSS, and JavaScript libraries to provide a captivating online presence for the Equinoxx Hotel in El Salvador, created for the SayHello Agency.
 
@@ -12,10 +12,10 @@ This project showcases a responsive website built with HTML, CSS, and JavaScript
 
 # Website Sections:
 
-### Home Page: Captures visitors' attention with a visually stunning and informative page. Transitions are implemented to create a seamless and engaging experience.
-### Rooms: Provides detailed information about the hotel's various room types, including images and features. Users can explore the different room options.
-### Gastronomy: Highlights the hotel's culinary offerings, showcasing mouthwatering dishes and the restaurant's ambiance.
-### Contact: Provides clear contact information and a contact form to facilitate communication with potential guests.
+* Home Page: Captures visitors' attention with a visually stunning and informative page. Transitions are implemented to create a seamless and engaging experience.
+* Rooms: Provides detailed information about the hotel's various room types, including images and features. Users can explore the different room options.
+* Gastronomy: Highlights the hotel's culinary offerings, showcasing mouthwatering dishes and the restaurant's ambiance.
+* Contact: Provides clear contact information and a contact form to facilitate communication with potential guests.
 
 
 # Responsive Design:
