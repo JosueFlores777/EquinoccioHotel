@@ -118,11 +118,11 @@
     .map .card-body button:hover,
     .map .containerdetallesHab1 button:hover,
     .reserve-btn button:hover,
-    #fondo .textFondo button:hover,
+    #fondo .textFondo button:hover,#fondo .textFondo button i:hover
     .reserve-btn2 button,
     #fondoFinal button:hover{
         background-color: #003E52;
-        color: rgba(201, 255, 253, 1);
+        color: rgb(134, 189, 187);
         cursor: pointer;
         font-weight: 200;
         font-size: 15px;
