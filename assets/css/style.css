@@ -113,14 +113,21 @@
     }
 
 
+
+    .categories .return-room a i:hover {
+        color: #003E52;
+    }
+
+
     #fondo-gastranomia2 button:hover,
-    button:hover,
     .map .card-body button:hover,
     .map .containerdetallesHab1 button:hover,
     .reserve-btn button:hover,
-    #fondo .textFondo button:hover,#fondo .textFondo button i:hover
-    .reserve-btn2 button,
-    #fondoFinal button:hover{
+    #fondo .textFondo button:hover,
+    #fondo .textFondo button i:hover .reserve-btn2 button,
+    #fondoFinal button:hover,
+    .reserve-btn button i :hover,
+    .containerdetallesHab1 button i:hover {
         background-color: #003E52;
         color: rgb(134, 189, 187);
         cursor: pointer;
@@ -128,10 +135,57 @@
         font-size: 15px;
     }
 
+    .btn:hover {
+        background-color: #003E52;
+        color: rgb(134, 189, 187);
+    }
+
+    .btn:hover .material-symbols-outlined {
+        color: rgb(134, 189, 187);
+        /* Cambia el color del span en hover */
+    }
+
     .fondo {
         height: 100vh;
         width: 100%;
     }
+
+    #reservarButtonRoom:hover,
+    #reservarButtonRoom1:hover,
+    #reservarButtonRoom5:hover,
+    #resButtonRoomOut:hover,
+    #reservarButtonRoom3:hover,
+    #reservarButtonRoom2:hover,
+    #fondo button:hover {
+        background-color: #003E52;
+        color: rgb(134, 189, 187);
+    }
+    #reservarButtonRoom6:hover {
+        background-color: #003E52;
+        color: rgb(134, 189, 187);
+      }
+      
+      #reservarButtonRoom6:hover .material-symbols-outlined {
+        color: rgb(134, 189, 187);
+      }
+    #reservarButtonRoom:hover .material-symbols-outlined,
+    #reservarButtonRoom1:hover .material-symbols-outlined,
+    #reservarButtonRoom5:hover .material-symbols-outlined,
+    #resButtonRoomOut:hover .material-symbols-outlined,
+    #reservarButtonRoom3:hover .material-symbols-outlined,
+    #reservarButtonRoom2:hover .material-symbols-outlined,
+    #fondo button:hover .material-symbols-outlined {
+        color: rgb(134, 189, 187);
+    }
+
+    .btn:hover {
+        background-color: #003E52;
+        color: rgb(134, 189, 187);
+      }
+      
+      .btn:hover .material-symbols-outlined {
+        color: rgb(134, 189, 187);
+      }
 
     #fondo {
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/Contacto/hotel-equinoccio-vista-aerea.webp);
@@ -1448,6 +1502,8 @@
 
     }
 
+
+
     .menufooter .return-room-footer2 a {
         margin-right: 50px;
     }
@@ -1634,6 +1690,7 @@
         }
 
     }
+
     @media screen and (min-width: 1900px) {
         #fondo-gastranomia .text-container {
             margin-left: 595px;
@@ -2277,7 +2334,7 @@
     }
 
 
- 
+
     @media (max-width: 1630px) {
         .fe-box {
             width: 405px;
@@ -2374,7 +2431,7 @@
 
         .rowindex p {
             font-family: "Manrope", sans-serif;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 400;
             color: #4C4D58;
         }
@@ -3400,6 +3457,8 @@
             background-color: #C9FFFD;
             justify-content: center;
         }
+
+
 
         #room-details .container .margenDelux {
             margin-top: 55px;
